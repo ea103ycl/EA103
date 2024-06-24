@@ -104,17 +104,17 @@
 					<img
 						src="<%=request.getContextPath()%>/members/headphotoHandler.do?action=getPic&mem_id=<%=memVO.getMem_id()%>" alt="" style="width:150px;margin:auto; margin-bottom:15px">
 					<p>
-						<a href="#banner-info" class="page-scroll"><b>編輯個人資料</b></a>
+						<a href="#banner-info" class="page-scroll"><strong>編輯個人資料</b></a>
 					</p>
 <!-- 					<p> -->
 <!-- 						<a href="#memInfoBtn" class="page-scroll">編輯收件資料</a> -->
 <!-- 					</p> -->
 
 					<p>
-						<a href="#memInfoBtn" class="page-scroll"><b>帳號管理</b></a>
+						<a href="#memInfoBtn" class="page-scroll"><strong>帳號管理</b></a>
 					</p>
 					<p>
-						<a href="#accountArea" class="page-scroll"><b>電子錢包管理</b></a>
+						<a href="#accountArea" class="page-scroll"><strong>電子錢包管理</b></a>
 					</p>
 </div>
 				</div>
@@ -147,7 +147,7 @@
 									class="btn btn-primary btn-xs btn-rounded no-margin"
 									type="button" style="font-weight: bold;" data-toggle="modal"
 									data-target="#photoModal">
-									<i class="fas fa-camera"></i>更換頭像
+									<em class="fas fa-camera"></em>更換頭像
 								</button>
 
 
@@ -335,7 +335,7 @@
 <!-- 									type="button" data-toggle="collapse" -->
 <!-- 									data-target="#collapseExample2" aria-expanded="false" -->
 <!-- 									aria-controls="collapseExample2" style="font-weight: bold"> -->
-<!-- 									<i class="lnr lnr-pencil"></i>修改收件人資料 -->
+<!-- 									<em class="lnr lnr-pencil"></em>修改收件人資料 -->
 <!-- 								</button> -->
 <!-- 							</span> -->
 
@@ -489,7 +489,7 @@
 									type="button" data-toggle="collapse"
 									data-target="#collapseExample" aria-expanded="false"
 									aria-controls="collapseExample" style="font-weight: bold">
-									<i class="lnr lnr-pencil"></i>修改密碼
+									<em class="lnr lnr-pencil"></em>修改密碼
 								</button>
 							</span>
 
@@ -530,7 +530,7 @@
 													style="margin-top: 5px; text-align: center">
 													<button type="button" id="eye"
 														class="btn btn-xs btn-default-filled btn-pill">
-														<i class="zmdi zmdi-eye-off"></i>顯示密碼
+														<em class="zmdi zmdi-eye-off"></em>顯示密碼
 													</button>
 												</div>
 											</div>
@@ -590,12 +590,12 @@
 
 								<button type="button" class="btn btn-primary-filled btn-rounded"
 									data-toggle="modal" data-target="#myModal1">
-									<i class="fa fa-plus"></i>儲值
+									<em class="fa fa-plus"></em>儲值
 								</button> &emsp;
 								<button type="button"
 									class="btn btn-primary-filled btn-rounded no-margin"
 									data-toggle="modal" data-target="#myModal2">
-									<i class="fa fa-minus"></i>提領
+									<em class="fa fa-minus"></em>提領
 								</button>
 
 							</span>
@@ -810,7 +810,7 @@
 	<!-- / content -->
 	<!-- scroll to top -->
 	<a href="#top" class="scroll-to-top page-scroll is-hidden"
-		data-nav-status="toggle"><i class="fa fa-angle-up"></i></a>
+		data-nav-status="toggle"><em class="fa fa-angle-up"></em></a>
 	<!-- / scroll to top -->
 	
 	
@@ -1142,11 +1142,11 @@
 
 		{
 			$("#pwdGroup input").attr("type", "text");
-			$("#eye").html("<i class=\"zmdi zmdi-eye-off\"></i>隱藏密碼");
+			$("#eye").html("<em class=\"zmdi zmdi-eye-off\"></em>隱藏密碼");
 
 		} else {
 			$("#pwdGroup input").attr("type", "password");
-			$("#eye").html('<i class=\"zmdi zmdi-eye\"></i>顯示密碼');
+			$("#eye").html('<em class=\"zmdi zmdi-eye\"></em>顯示密碼');
 		}
 	});
 	

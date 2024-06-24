@@ -50,14 +50,14 @@
                 <a class="navbar-brand" href="index.html"><img src="<%=request.getContextPath() %>/frontend/template/images/logo.png" alt="logo"></a>
             </div><!-- / navbar-header -->
             <div class="secondary-nav">
-                <a href="login-register.html" class="my-account space-right"><i class="fa fa-user"></i></a>
-                <a href="shopping-cart.html" class="shopping-cart"><i class="fa fa-shopping-cart"></i> <span class="cart-badge">2</span></a>
+                <a href="login-register.html" class="my-account space-right"><em class="fa fa-user"></em></a>
+                <a href="shopping-cart.html" class="shopping-cart"><em class="fa fa-shopping-cart"></em> <span class="cart-badge">2</span></a>
             </div>
             <div class="navbar-collapse collapse text-center">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html"><span>HOME</span></a></li>
+                    <lem class="active"><a href="index.html"><span>HOME</span></a></li>
                     <li><a href="about.html"><span>ABOUT</span></a></li>
-                    <li class="dropdown">
+                    <lem class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>BLOG</span> <span class="dropdown-icon"></span></a>
                     <ul class="dropdown-menu animated zoomIn fast">
                         <li><a href="blog.html"><span>BLOG FULLWIDTH</span></a></li>
@@ -67,7 +67,7 @@
                         <li><a href="single-post.html"><span>POST SIDEBAR</span></a></li>
                     </ul>
                     </li>
-                    <li class="dropdown">
+                    <lem class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>SHOP</span> <span class="dropdown-icon"></span></a>
                     <ul class="dropdown-menu animated zoomIn fast">
                         <li><a href="shop.html"><span>FULL WIDTH</span></a></li>
@@ -79,7 +79,7 @@
                         <li><a href="single-product3.html"><span>SINGLE PRODUCT 3</span></a></li>
                     </ul>
                     </li>
-                    <li class="dropdown">
+                    <lem class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>PAGES</span> <span class="dropdown-icon"></span></a>
                     <ul class="dropdown-menu animated zoomIn fast">
                         <li><a href="faq.html"><span>FAQ</span></a></li>

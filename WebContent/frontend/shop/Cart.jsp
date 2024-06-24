@@ -254,7 +254,7 @@ for ( index=0; index < buylist.size(); index++) {
                     <input type="text" name="prod_name" class="form-control rounded" id="coupon-code" placeholder="輸入你想找的商品">
                     <span class="input-group-btn">
                     <input type="hidden" name="action" value="Fuzzy_Search">
-                    <input type="submit" value="再找找你想要的商品"  class="btn btn-primary-filled btn-rounded" type="button"><i class="lnr lnr-tag"></i> 
+                    <input type="submit" value="再找找你想要的商品"  class="btn btn-primary-filled btn-rounded" type="button"><em class="lnr lnr-tag"></em> 
                     <span>再找找想要的商品</span>>  
                     </span>
 </FORM>	 
@@ -272,7 +272,7 @@ for ( index=0; index < buylist.size(); index++) {
             
             <form  action="<%=request.getContextPath()%>/frontend/shop/shopping" method="POST" enctype="multipart/form-data">
             <input type="hidden" name="action" value="Clear_Cart">
-            <button  type="submit" name="Submit" value="清空購物車" class="btn btn-default-filled btn-rounded" type="button"><i class="lnr lnr-sync"></i> <span>清空購物車</span></button>
+            <button  type="submit" name="Submit" value="清空購物車" class="btn btn-default-filled btn-rounded" type="button"><em class="lnr lnr-sync"></em> <span>清空購物車</span></button>
             </form>
             </div><!-- / update-cart -->
 
@@ -285,8 +285,8 @@ for ( index=0; index < buylist.size(); index++) {
             </div><!-- / cart-total -->
 
             <div class="col-sm-6 cart-checkout">
-                <a href="EShop.jsp" class="btn btn-primary-filled btn-rounded"><i class="lnr lnr-cart"></i> <span>再逛逛</span></a>
-                <a href="Checkout.jsp" class="btn btn-primary-filled btn-rounded" style="margin:0 0 0 20px;"><i class="lnr lnr-exit"></i> <span>結帳去</span></a>
+                <a href="EShop.jsp" class="btn btn-primary-filled btn-rounded"><em class="lnr lnr-cart"></em> <span>再逛逛</span></a>
+                <a href="Checkout.jsp" class="btn btn-primary-filled btn-rounded" style="margin:0 0 0 20px;"><em class="lnr lnr-exit"></em> <span>結帳去</span></a>
             </div><!-- / cart-checkout -->
 
 
@@ -298,7 +298,7 @@ for ( index=0; index < buylist.size(); index++) {
 <!-- / content -->
 
 <!-- scroll to top -->
-<a href="#top" class="scroll-to-top page-scroll is-hidden" data-nav-status="toggle"><i class="fa fa-angle-up"></i></a>
+<a href="#top" class="scroll-to-top page-scroll is-hidden" data-nav-status="toggle"><em class="fa fa-angle-up"></em></a>
 <!-- / scroll to top -->
 
 <!--------------------------------------- footer --------------------------------------->

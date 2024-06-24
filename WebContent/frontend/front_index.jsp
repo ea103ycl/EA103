@@ -72,7 +72,7 @@
 
 	<!-- ======= Mobile nav toggle button ======= -->
 	<button type="button" class="mobile-nav-toggle d-xl-none">
-		<i class="icofont-navigation-menu"></i>
+		<em class="icofont-navigation-menu"></em>
 	</button>
 	<!-- ======= Header ======= -->
 	<header id="header"> </header>
@@ -102,7 +102,7 @@
 										&nbsp</li>/ &nbsp
 								<li><a class="mya"
 									href="<%=request.getContextPath()%>/frontend/members/memArea.jsp"
-									hover=""><i class="fa fa-user" aria-hidden="true"></i></a></li>
+									hover=""><em class="fa fa-user" aria-hidden="true"></em></a></li>
 								</p>
 							</c:otherwise>
 						</c:choose>

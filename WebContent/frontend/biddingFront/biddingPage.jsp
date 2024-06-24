@@ -261,7 +261,7 @@ img {
 																				placeholder="MESSAGE"></textarea>
 																			<a href=""
 																				class="btn btn-primary-filled btn-rounded checkout"><i
-																				class="lnr lnr-cart"></i><span>Checkout</span></a>
+																				class="lnr lnr-cart"></em><span>Checkout</span></a>
 																			<button type="submit" id="checkout"
 																				style="display: none;"></button>
 																		</div>
@@ -287,10 +287,10 @@ img {
 
 																	<div class="cart-total-footer" style="margin-top: 10%">
 																		<a href="" class="btn btn-default-filled btn-rounded"><i
-																			class="lnr lnr-arrow-left"></i><span>Back to
+																			class="lnr lnr-arrow-left"></em><span>Back to
 																				Page</span></a> <a href="shop-right.html"
 																			class="btn btn-primary-filled btn-rounded"><i
-																			class="lnr lnr-store"></i><span>Go to Shop</span></a>
+																			class="lnr lnr-store"></em><span>Go to Shop</span></a>
 																	</div>
 																	<!-- / cart-total-footer -->
 																</div>
@@ -413,7 +413,7 @@ img {
 																		<div id="checkoutEdit" class="account-info-footer">
 																			<a href="javascript:void(0)"
 																				class="btn btn-sm btn-primary btn-rounded no-margin"><i
-																				class="lnr lnr-pencil"></i><span>Edit</span></a>
+																				class="lnr lnr-pencil"></em><span>Edit</span></a>
 																		</div>
 																	</div>
 																	<!-- / shipping-info -->
@@ -542,10 +542,10 @@ img {
 							<p class="blog-post-footer">
 								<a href="single-post.html"
 									class="btn btn-primary-filled btn-rounded"><span>Read
-										More</span><i class="fa fa-long-arrow-right"></i></a> <span
+										More</span><em class="fa fa-long-arrow-right"></em></a> <span
 									class="post-icons pull-right"> <a href="#x"><i
-										class="lnr lnr-thumbs-up"></i></a> <a href="#x"><i
-										class="lnr lnr-bubble"></i></a>
+										class="lnr lnr-thumbs-up"></em></a> <a href="#x"><i
+										class="lnr lnr-bubble"></em></a>
 								</span>
 							</p>
 							<!-- / blog-post-footer -->
@@ -633,9 +633,9 @@ img {
 		<!-- pagination -->
 		<div class="pagination">
 			<a href="#x" class="btn btn-direction btn-default-filled"><i
-				class="fa fa-long-arrow-left"></i><span>Previous Page</span></a> <a
+				class="fa fa-long-arrow-left"></em><span>Previous Page</span></a> <a
 				href="#x" class="btn btn-direction btn-default-filled pull-right"><span>Next
-					Page</span><i class="fa fa-long-arrow-right"></i></a>
+					Page</span><em class="fa fa-long-arrow-right"></em></a>
 		</div>
 		<!-- / pagination -->
 	</div>
@@ -643,7 +643,7 @@ img {
 	<!-- / content -->
 	<!-- scroll to top -->
 	<a href="#top" class="scroll-to-top page-scroll is-hidden"
-		data-nav-status="toggle"><i class="fa fa-angle-up"></i></a>
+		data-nav-status="toggle"><em class="fa fa-angle-up"></em></a>
 	<!-- / scroll to top -->
 
 
@@ -717,25 +717,25 @@ img {
 						<div class="contact-widget">
 							<div class="info">
 								<p>
-									<i class="lnr lnr-map-marker"></i><span>Miami, S Miami
+									<em class="lnr lnr-map-marker"></em><span>Miami, S Miami
 										Ave, SW 20th, Store No.1</span>
 								</p>
 							</div>
 							<div class="info">
-								<a href="tel:+0123456789"><i class="lnr lnr-phone-handset"></i><span>+0123
+								<a href="tel:+0123456789"><em class="lnr lnr-phone-handset"></em><span>+0123
 										456 789</span></a>
 							</div>
 							<div class="info">
 								<a href="mailto:hello@yoursite.com"><i
-									class="lnr lnr-envelope"></i><span>office@yoursite.com</span></a>
+									class="lnr lnr-envelope"></em><span>office@yoursite.com</span></a>
 							</div>
 							<div class="info">
-								<i class="lnr lnr-thumbs-up"></i> <span class="social text-left">
-									<a class="no-margin" href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i
-										class="fa fa-google-plus"></i></a> <a href="#"><i
-										class="fa fa-linkedin"></i></a> <a href="#"><i
-										class="fa fa-pinterest"></i></a>
+								<em class="lnr lnr-thumbs-up"></em> <span class="social text-left">
+									<a class="no-margin" href="#"><em class="fa fa-facebook"></em></a>
+									<a href="#"><em class="fa fa-twitter"></em></a> <a href="#"><i
+										class="fa fa-google-plus"></em></a> <a href="#"><i
+										class="fa fa-linkedin"></em></a> <a href="#"><i
+										class="fa fa-pinterest"></em></a>
 								</span>
 							</div>
 						</div>

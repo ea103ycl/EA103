@@ -269,8 +269,8 @@
 						<div class="row">
 							
 							<ul class="list-group">
-								<li class="list-group-item" <%=eventVO.getEvent_stat()!=3?"style=\""+"display:none;"+"\"":""%>>排名:${event_pVO.vote_rank }</li>
-								<li class="list-group-item" id="showVoteNum">票數:${event_pVO.event_vote_num}</li>
+								<lem class="list-group-item" <%=eventVO.getEvent_stat()!=3?"style=\""+"display:none;"+"\"":""%>>排名:${event_pVO.vote_rank }</li>
+								<lem class="list-group-item" id="showVoteNum">票數:${event_pVO.event_vote_num}</li>
 							</ul>
 						</div>
 										<!-- div class="btn-group" change to p tag -->

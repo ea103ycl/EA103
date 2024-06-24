@@ -225,7 +225,7 @@ height:400px;
 		        <c:forEach var="preproductVO" items="${list}">
 		            <!-- product -->
 		            
-		            <li class="col-xs-6 col-md-4 product m-product" data-groups='["mens"]'>
+		            <lem class="col-xs-6 col-md-4 product m-product" data-groups='["mens"]'>
 		            <form id="shoppingForm${preproductVO.event_p_no}" name="shoppingForm" action="Shopping.do" method="POST">
 		                <div class="img-bg-color primary">
 		                    <h5 class="product-price"><input type="hidden" name="po_price" value="${preproductVO.po_price}">$ ${preproductVO.po_price}</h5>
@@ -240,10 +240,10 @@ height:400px;
 			                    	<img class="productshow " alt="picture" src="<%=request.getContextPath()%>/backend/preproduct/tools/materialP_show.jsp?MA_NO=${preproductVO.ma_no}">
 		                        </div>
 		                        <a  href="<%=request.getContextPath()%>/backend/preproduct/tools/eventP_show.jsp?EVENT_P_NO=${preproductVO.event_p_no}" data-size="1600x1067" class="view-btn" data-toggle="tooltip" title="View Product">
-		                            <i class="lnr lnr-eye"></i>
+		                            <em class="lnr lnr-eye"></em>
 		                        </a>
 		                        <a href="javascript:" class="view-btn" onclick="document.getElementById('shoppingForm${preproductVO.event_p_no}').submit();">
-		                            <i class="lnr lnr-cart"><input type="hidden" class="add-cart cart1" value=""></i>
+		                            <em class="lnr lnr-cart"><input type="hidden" class="add-cart cart1" value=""></em>
 		                        </a>
 		                        
 		                    </div><!-- / product-hover-tools -->
@@ -266,7 +266,7 @@ height:400px;
 		            <!-- / product -->
 		
 		            <!-- sizer -->
-		            <li class="col-xs-6 col-md-4 shuffle_sizer"></li>
+		            <lem class="col-xs-6 col-md-4 shuffle_sizer"></li>
 		            <!-- / sizer -->
 		
 		        </ul> <!-- / products -->

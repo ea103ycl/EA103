@@ -84,7 +84,7 @@ tr, td, th {
 												id="onlineAmount">${applicationScope.onlineCount}</div>
 										</div>
 										<div class="col-auto">
-											<i class="fas fa-user-friends fa-2x text-gray-300"></i>
+											<em class="fas fa-user-friends fa-2x text-gray-300"></em>
 										</div>
 									</div>
 								</div>
@@ -110,7 +110,7 @@ tr, td, th {
 										
 										</div>
 										<div class="col-auto">
-											<i class="fas fa-user-friends fa-2x text-gray-300"></i>
+											<em class="fas fa-user-friends fa-2x text-gray-300"></em>
 										</div>
 									</div>
 								</div>
@@ -128,7 +128,7 @@ tr, td, th {
 									data-toggle="collapse" data-target="#collapseOne1"
 									aria-expanded="true" aria-controls="collapseOne"
 									id="simpleSearch">
-									<i class="zmdi zmdi-search"></i>&ensp;簡易查詢(單一會員帳號、名稱或編號)
+									<em class="zmdi zmdi-search"></em>&ensp;簡易查詢(單一會員帳號、名稱或編號)
 								</button>
 							</h2>
 						</div>
@@ -167,7 +167,7 @@ tr, td, th {
 									data-toggle="collapse" data-target="#collapseThree"
 									aria-expanded="false" aria-controls="collapseThree"
 									id="getAllMembers">
-									<i class="zmdi zmdi-search"></i>&ensp;全部會員查詢
+									<em class="zmdi zmdi-search"></em>&ensp;全部會員查詢
 								</button>
 							</h2>
 						</div>
@@ -183,7 +183,7 @@ tr, td, th {
 <!-- 									data-toggle="collapse" data-target="#collapseTwo2" -->
 <!-- 									aria-expanded="false" aria-controls="collapseTwo" -->
 <!-- 									id="muti-query"> -->
-<!-- 									<i class="zmdi zmdi-search"></i>&ensp;進階查詢(居住地、性別、加入時間等) -->
+<!-- 									<em class="zmdi zmdi-search"></em>&ensp;進階查詢(居住地、性別、加入時間等) -->
 <!-- 								</button> -->
 <!-- 							</h2> -->
 <!-- 						</div> -->
@@ -596,11 +596,11 @@ $("#getOneById_Name_Accout").click(function(){
 		function accStatus(input) {
 			switch (input) {
 			case 1:
-				return '<i class="zmdi zmdi-alert-triangle"></i>&ensp;未驗證';
+				return '<em class="zmdi zmdi-alert-triangle"></em>&ensp;未驗證';
 			case 2:
-				return '<i class="zmdi zmdi-check"></i>&ensp;使用中';
+				return '<em class="zmdi zmdi-check"></em>&ensp;使用中';
 			case 3:
-				return '<i class="zmdi zmdi-block"></i>&ensp;已停用';
+				return '<em class="zmdi zmdi-block"></em>&ensp;已停用';
 
 			}
 
@@ -609,9 +609,9 @@ $("#getOneById_Name_Accout").click(function(){
 		function publicStatus(input) {
 			switch (input) {
 			case 1:
-				return '<i class="zmdi zmdi-eye"></i>&ensp;公開';
+				return '<em class="zmdi zmdi-eye"></em>&ensp;公開';
 			case 2:
-				return '<i class="zmdi zmdi-eye-off"></i>&ensp;隱藏';
+				return '<em class="zmdi zmdi-eye-off"></em>&ensp;隱藏';
 
 			}
 

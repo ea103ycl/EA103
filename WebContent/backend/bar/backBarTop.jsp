@@ -53,7 +53,7 @@
                 
                     <!-- Sidebar Toggle (Topbar) -->
                     <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-                        <i class="fa fa-bars"></i>
+                        <em class="fa fa-bars"></em>
                     </button>
                     
                     <!-- ======== Topbar Search START ========  -->
@@ -62,7 +62,7 @@
 <!--                             <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2"> -->
 <!--                             <div class="input-group-append"> -->
 <!--                                 <button class="btn btn-primary" type="button"> -->
-<!--                                     <i class="fas fa-search fa-sm"></i> -->
+<!--                                     <em class="fas fa-search fa-sm"></em> -->
 <!--                                 </button> -->
 <!--                             </div> -->
 <!--                         </div> -->
@@ -73,9 +73,9 @@
                     <ul class="navbar-nav ml-auto">         
                                                      
 <!--                         Nav Item - Search Dropdown (Visible Only XS) -->
-<!--                         <li class="nav-item dropdown no-arrow d-sm-none"> -->
+<!--                         <lem class="nav-item dropdown no-arrow d-sm-none"> -->
 <!--                             <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
-<!--                                 <i class="fas fa-search fa-fw"></i> -->
+<!--                                 <em class="fas fa-search fa-fw"></em> -->
 <!--                             </a> -->
 <!--                             Dropdown - Messages -->
 <!--                             <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown"> -->
@@ -84,7 +84,7 @@
 <!--                                         <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2"> -->
 <!--                                         <div class="input-group-append"> -->
 <!--                                             <button class="btn btn-primary" type="button"> -->
-<!--                                                 <i class="fas fa-search fa-sm"></i> -->
+<!--                                                 <em class="fas fa-search fa-sm"></em> -->
 <!--                                             </button> -->
 <!--                                         </div> -->
 <!--                                     </div> -->
@@ -93,10 +93,10 @@
 <!--                         </li> -->
                         
 <!--                         Nav Item - Alerts -->
-<!--                         <li class="nav-item dropdown no-arrow mx-1"> -->
+<!--                         <lem class="nav-item dropdown no-arrow mx-1"> -->
                         
 <!--                             <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
-<!--                                 <i class="fas fa-bell fa-fw"></i> -->
+<!--                                 <em class="fas fa-bell fa-fw"></em> -->
 <!--                                 Counter - Alerts -->
 <!--                                 <span class="badge badge-danger badge-counter">99+</span> -->
 <!--                             </a> -->
@@ -110,7 +110,7 @@
 <!--                                     <div class="mr-3"> -->
 <!--                                         <div class="icon-circle bg-primary"> -->
 <!--                                             圓形icon版 -->
-<!--                                             <i class="fas fa-file-alt text-white"></i> -->
+<!--                                             <em class="fas fa-file-alt text-white"></em> -->
 <!--                                         </div> -->
 <!--                                     </div> -->
                                     
@@ -123,7 +123,7 @@
 <!--                                 <a class="dropdown-item d-flex align-items-center" href="#"> -->
 <!--                                     <div class="mr-3"> -->
 <!--                                         <div class="icon-circle bg-success"> -->
-<!--                                             <i class="fas fa-donate text-white"></i> -->
+<!--                                             <em class="fas fa-donate text-white"></em> -->
 <!--                                         </div> -->
 <!--                                     </div> -->
 <!--                                     <div> -->
@@ -134,7 +134,7 @@
 <!--                                 <a class="dropdown-item d-flex align-items-center" href="#"> -->
 <!--                                     <div class="mr-3"> -->
 <!--                                         <div class="icon-circle bg-warning"> -->
-<!--                                             <i class="fas fa-exclamation-triangle text-white"></i> -->
+<!--                                             <em class="fas fa-exclamation-triangle text-white"></em> -->
 <!--                                         </div> -->
 <!--                                     </div> -->
 <!--                                     <div> -->
@@ -149,7 +149,7 @@
                         <!-- === --------------------------------- ====  -->  
                         
                         <!-- Nav Item - Messages -->
-                        <li class="nav-item dropdown no-arrow">
+                        <lem class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">員工編號<%=(String)session.getAttribute("emp_no") == null? "XXX": (String)session.getAttribute("emp_no")%></span>
                                 <img class="img-profile rounded-circle" src="<%=request.getContextPath()%>/backend/emp/emp.pic?emp_no=<%=(String)session.getAttribute("emp_no")%>">
@@ -158,12 +158,12 @@
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
                                 <a class="dropdown-item" href="#">
-                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i> 查看權限 </a>
+                                    <em class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></em> 查看權限 </a>
                                 <a class="dropdown-item" href="#">
-                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i> 設定 </a>
+                                    <em class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></em> 設定 </a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="<%=request.getContextPath()%>/backend/emp/emp.do?action=logout" >
-                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> 登出 </a>
+                                    <em class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></em> 登出 </a>
                             </div>
                         </li>
                         

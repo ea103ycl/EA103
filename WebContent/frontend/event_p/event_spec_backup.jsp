@@ -256,8 +256,8 @@
 										</div>
 									</div>
 									<ul class="list-group">
-										<li class="list-group-item">排名:${event_pVO.vote_rank }</li>
-										<li class="list-group-item">票數:${event_pVO.event_vote_num }</li>
+										<lem class="list-group-item">排名:${event_pVO.vote_rank }</li>
+										<lem class="list-group-item">票數:${event_pVO.event_vote_num }</li>
 									</ul>
 									</p>
 									<div class="d-flex justify-content-between align-items-center">

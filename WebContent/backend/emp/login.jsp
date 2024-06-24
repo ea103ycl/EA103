@@ -58,7 +58,7 @@
                   <c:if test="${not empty errorMsgs}">
 	<ul>                             
 	    <c:forEach var="message" items="${errorMsgs}">
-			<li class="error1" style="color:red">${message}</li>
+			<lem class="error1" style="color:red">${message}</li>
 		</c:forEach>          
 	</ul>
 </c:if>

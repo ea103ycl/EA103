@@ -71,7 +71,7 @@
 <h1>查詢</h1><br>
 
    <FORM METHOD="post" ACTION="<%= request.getContextPath()%>/welRecord/welRecord.do" >
-       <b>選擇會員編號:</b>
+       <strong>選擇會員編號:</b>
        <select size="1" name="mem_id">
          <c:forEach var="memVO" items="${memSvc.all}" > 
           <option value="${memVO.mem_id}">${memVO.mem_id}

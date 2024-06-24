@@ -110,7 +110,7 @@
 <ul class="row shop list-unstyled" id="grid">
                 <!---------------------------------------------- product ------------------------------------------->
 <c:forEach var="prodVO" items="${list}" varStatus="counter" begin="<%=pageIndex%>" end="<%=pageIndex+rowsPerPage-1%>">
-                <li class="col-xs-6 col-md-4 product m-product" data-groups='["mens"]'>
+                <lem class="col-xs-6 col-md-4 product m-product" data-groups='["mens"]'>
                     <div class="img-bg-color primary">
                         <h5 class="product-price">${prodVO.prod_price}</h5>
                         <a href="single-product.html" class="product-link"></a>
@@ -127,7 +127,7 @@
   <input type="hidden" name="prod_no" value="${prodVO.prod_no}">
    <input type="hidden" name="action" value="getOne_For_Detail">		
     <button type="submit" name="Submit" value="商品詳情"   class="view-btn" data-toggle="tooltip" title="View Product">
-    <i class="lnr lnr-eye"></i>
+    <em class="lnr lnr-eye"></em>
     </button>   
 </form>
 
@@ -140,7 +140,7 @@
       <input type="hidden" name="prod_qty" value= 1                       id="prod_qty${counter.count}" >
 <!--  <input type="hidden" name="action" value="ADD">	 -->
       <button type="button" name="Submit" value="放入購物車"  id="addcart${counter.count}" class="cart-btn" data-toggle="tooltip" title="Add to Cart">
-      <i class="lnr lnr-cart"></i>
+      <em class="lnr lnr-cart"></em>
        </button>   
 <!-- </form> -->
  </div>
@@ -157,11 +157,11 @@
 </c:forEach>
                 <!----------------------------------------- / product ----------------------------------------->
                 <!-- sizer -->
-                <li class="col-xs-6 col-md-4 shuffle_sizer"></li>
+                <lem class="col-xs-6 col-md-4 shuffle_sizer"></li>
                 <!-- / sizer -->
             </ul> <!-- / products -->
             <div class="text-center more-button space-top-30">
-<!--                 <a href="#x" class="btn btn-default-filled"><i class="lnr lnr-sync"></i><span>LOAD MORE</span></a> -->
+<!--                 <a href="#x" class="btn btn-default-filled"><em class="lnr lnr-sync"></em><span>LOAD MORE</span></a> -->
             </div>
         </div><!-- / container -->
          <div style="margin:20px 0 0 870px; font-size:20px;" > <%@ include file="page2.file" %></div> 
@@ -169,7 +169,7 @@
     <!-- / shop section -->
     <!-- / content -->
     <!-- scroll to top -->
-    <a href="#top" class="scroll-to-top page-scroll is-hidden" data-nav-status="toggle"><i class="fa fa-angle-up"></i></a>
+    <a href="#top" class="scroll-to-top page-scroll is-hidden" data-nav-status="toggle"><em class="fa fa-angle-up"></em></a>
     <!-- / scroll to top -->
 <!--------------------------------------- footer --------------------------------------->
 <%@include file="/frontend/bar/frontBarFooter.jsp"%>

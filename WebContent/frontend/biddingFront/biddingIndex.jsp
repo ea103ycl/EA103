@@ -138,9 +138,9 @@
 									<h6>${memSvc.findByPrimaryKey(latestEpVO1.mem_id).m_name}</h6>
 									<p class="team-role">${latestEpVO1.event_p_name}</p>
 									<p class="social text-center">
-										<a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i
-											class="fa fa-twitter"></i></a> <a href="#"><i
-											class="fa fa-google-plus"></i></a>
+										<a href="#"><em class="fa fa-facebook"></em></a> <a href="#"><i
+											class="fa fa-twitter"></em></a> <a href="#"><i
+											class="fa fa-google-plus"></em></a>
 									</p>
 								</div>
 								<!-- / team-info-box -->
@@ -163,9 +163,9 @@
 									<h6>${memSvc.findByPrimaryKey(latestEpVO2.mem_id).m_name}</h6>
 									<p class="team-role">${latestEpVO2.event_p_name}</p>
 									<p class="social text-center">
-										<a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i
-											class="fa fa-twitter"></i></a> <a href="#"><i
-											class="fa fa-google-plus"></i></a>
+										<a href="#"><em class="fa fa-facebook"></em></a> <a href="#"><i
+											class="fa fa-twitter"></em></a> <a href="#"><i
+											class="fa fa-google-plus"></em></a>
 									</p>
 								</div>
 								<!-- / team-info-box -->
@@ -188,9 +188,9 @@
 									<h6>${memSvc.findByPrimaryKey(latestEpVO3.mem_id).m_name}</h6>
 									<p class="team-role">${latestEpVO3.event_p_name}</p>
 									<p class="social text-center">
-										<a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i
-											class="fa fa-twitter"></i></a> <a href="#"><i
-											class="fa fa-google-plus"></i></a>
+										<a href="#"><em class="fa fa-facebook"></em></a> <a href="#"><i
+											class="fa fa-twitter"></em></a> <a href="#"><i
+											class="fa fa-google-plus"></em></a>
 									</p>
 								</div>
 								<!-- / team-info-box -->
@@ -212,7 +212,7 @@
 
 		<!-- scroll to top -->
 		<a href="#top" class="scroll-to-top page-scroll is-hidden"
-			data-nav-status="toggle"><i class="fa fa-angle-up"></i></a>
+			data-nav-status="toggle"><em class="fa fa-angle-up"></em></a>
 		<!-- / scroll to top -->
 
 		<!-- footer -->
@@ -289,26 +289,26 @@
 							<div class="contact-widget">
 								<div class="info">
 									<p>
-										<i class="lnr lnr-map-marker"></i><span>Miami, S Miami
+										<em class="lnr lnr-map-marker"></em><span>Miami, S Miami
 											Ave, SW 20th, Store No.1</span>
 									</p>
 								</div>
 								<div class="info">
-									<a href="tel:+0123456789"><i class="lnr lnr-phone-handset"></i><span>+0123
+									<a href="tel:+0123456789"><em class="lnr lnr-phone-handset"></em><span>+0123
 											456 789</span></a>
 								</div>
 								<div class="info">
 									<a href="mailto:hello@yoursite.com"><i
-										class="lnr lnr-envelope"></i><span>office@yoursite.com</span></a>
+										class="lnr lnr-envelope"></em><span>office@yoursite.com</span></a>
 								</div>
 								<div class="info">
-									<i class="lnr lnr-thumbs-up"></i> <span
+									<em class="lnr lnr-thumbs-up"></em> <span
 										class="social text-left"> <a class="no-margin" href="#"><i
-											class="fa fa-facebook"></i></a> <a href="#"><i
-											class="fa fa-twitter"></i></a> <a href="#"><i
-											class="fa fa-google-plus"></i></a> <a href="#"><i
-											class="fa fa-linkedin"></i></a> <a href="#"><i
-											class="fa fa-pinterest"></i></a>
+											class="fa fa-facebook"></em></a> <a href="#"><i
+											class="fa fa-twitter"></em></a> <a href="#"><i
+											class="fa fa-google-plus"></em></a> <a href="#"><i
+											class="fa fa-linkedin"></em></a> <a href="#"><i
+											class="fa fa-pinterest"></em></a>
 									</span>
 								</div>
 							</div>

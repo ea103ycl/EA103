@@ -44,14 +44,14 @@
        
         <p><a href="<%=request.getContextPath()%>/frontend/members/mem.do?action=sendVerifyAgain" class="btn btn-lg btn-primary-filled btn-rounded"><span>收不到驗證信? 點此重新發送</span></a></p>
         <h6>OR</h6>
-        <p><a href="<%=request.getContextPath()%>/frontend/front_index.jsp" class="btn btn-lg btn-default-filled btn-rounded"><i class="fa fa-long-arrow-right"></i><span>先逛逛首頁</span></a></p>
+        <p><a href="<%=request.getContextPath()%>/frontend/front_index.jsp" class="btn btn-lg btn-default-filled btn-rounded"><em class="fa fa-long-arrow-right"></em><span>先逛逛首頁</span></a></p>
     </div>
 </div><!-- / container -->
 
 <!-- / content -->
 
 <!-- scroll to top -->
-<a href="#top" class="scroll-to-top page-scroll is-hidden" data-nav-status="toggle"><i class="fa fa-angle-up"></i></a>
+<a href="#top" class="scroll-to-top page-scroll is-hidden" data-nav-status="toggle"><em class="fa fa-angle-up"></em></a>
 <!-- / scroll to top -->
    
     

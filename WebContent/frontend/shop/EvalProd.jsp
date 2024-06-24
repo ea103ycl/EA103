@@ -255,7 +255,7 @@
 <!-- / content -->
 
 <!-- scroll to top -->
-<a href="#top" class="scroll-to-top page-scroll is-hidden" data-nav-status="toggle"><i class="fa fa-angle-up"></i></a>
+<a href="#top" class="scroll-to-top page-scroll is-hidden" data-nav-status="toggle"><em class="fa fa-angle-up"></em></a>
 <!-- / scroll to top -->
 
 <!--------------------------------------- footer --------------------------------------->

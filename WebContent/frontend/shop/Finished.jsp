@@ -214,8 +214,8 @@ memVO.setBalance(after_balance);//set到session，組員要求
                 <h4 >感謝你的消費: <h3 style="color:deeppink;">NT$ ${orderVO.or_total}</h3></h4> 
                 <h4 >你的錢包剩餘: <h3 style="color:purple;">NT$ <%=after_balance %></h3></h4>   
                 <div class="cart-total-footer">
-                    <a href="<%=request.getContextPath()%>/frontend/shop/order/OrderSearch.jsp" class="btn btn-default-filled btn-rounded"><i class="lnr lnr-arrow-left"></i><span>查看訂單</span></a>
-                    <a href="<%=request.getContextPath()%>/frontend/shop/EShop.jsp" class="btn btn-primary-filled btn-rounded"><i class="lnr lnr-store"></i><span>再逛逛</span></a>
+                    <a href="<%=request.getContextPath()%>/frontend/shop/order/OrderSearch.jsp" class="btn btn-default-filled btn-rounded"><em class="lnr lnr-arrow-left"></em><span>查看訂單</span></a>
+                    <a href="<%=request.getContextPath()%>/frontend/shop/EShop.jsp" class="btn btn-primary-filled btn-rounded"><em class="lnr lnr-store"></em><span>再逛逛</span></a>
                 </div><!-- / cart-total-footer -->
             </div><!-- / checkout-total -->
 
@@ -231,7 +231,7 @@ memVO.setBalance(after_balance);//set到session，組員要求
 <!-- / content -->
 
 <!-- scroll to top -->
-<a href="#top" class="scroll-to-top page-scroll is-hidden" data-nav-status="toggle"><i class="fa fa-angle-up"></i></a>
+<a href="#top" class="scroll-to-top page-scroll is-hidden" data-nav-status="toggle"><em class="fa fa-angle-up"></em></a>
 <!-- / scroll to top -->
 
 <!--------------------------------------- footer --------------------------------------->

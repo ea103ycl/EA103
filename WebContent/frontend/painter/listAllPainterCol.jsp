@@ -134,10 +134,10 @@
                 <!-- 選單列 -->
                 <ul class="nav nav-tabs" role="tablist">
                     <c:if test="${loginMemVO.mem_id == pageScope.sid}">
-                    	<li class=""><a href="<%=request.getContextPath()%>/frontend/painter/listAllPainterFollow.jsp?sid=${pageScope.sid}">關注圈</a></li>
+                    	<lem class=""><a href="<%=request.getContextPath()%>/frontend/painter/listAllPainterFollow.jsp?sid=${pageScope.sid}">關注圈</a></li>
                     </c:if>
-                    <li class=""><a href="<%=request.getContextPath()%>/frontend/painter/listAllPainter.jsp?sid=${pageScope.sid}">個人作品</a></li>
-                    <li class="active"><a href="<%=request.getContextPath()%>/frontend/painter/listAllPainterCol.jsp?sid=${pageScope.sid}">個人收藏</a></li>
+                    <lem class=""><a href="<%=request.getContextPath()%>/frontend/painter/listAllPainter.jsp?sid=${pageScope.sid}">個人作品</a></li>
+                    <lem class="active"><a href="<%=request.getContextPath()%>/frontend/painter/listAllPainterCol.jsp?sid=${pageScope.sid}">個人收藏</a></li>
                 </ul>
                 
                 <div class="tab-content">
@@ -182,9 +182,9 @@
 												<span class="post-icons ycl-post-icons">
 													<button class="ycl-act-btn-msg" value="${painterVO.ptr_no}"
 													 onclick="location.href='<%=request.getContextPath()%>/frontend/painter/onePainter.jsp?ptr_no=${painterVO.ptr_no}&sid=${sid}&src=2&spg=<%=whichPageCol%>&sid=${sid}'">
-													 	<i class="lnr lnr-bubble">
+													 	<em class="lnr lnr-bubble">
 													 		<span class="ycl-act-cnt">${painterMsgSvc.getPainterMsgCnt(painterVO.ptr_no)}</span>
-													 	</i>
+													 	</em>
 													</button>											
 												</span>
 												
@@ -193,15 +193,15 @@
 												   <button class="ycl-act-btn-like " value="${painterVO.ptr_no}">
 													   <c:choose>
 													   		<c:when test="${empty painterActSvc.getOneByActType(painterVO.ptr_no, 1, loginMemVO.mem_id)}">
-													   			<i class="lnr lnr-heart" id="likeIcon${painterVO.ptr_no}">
+													   			<em class="lnr lnr-heart" id="likeIcon${painterVO.ptr_no}">
 													   				<span class="ycl-act-cnt" id="likeCnt${painterVO.ptr_no}">${painterVO.like_cnt}</span>
-													   			</i>
+													   			</em>
 													   		</c:when>
 													   		
 													   		<c:otherwise>
-													   			<i class="fa fa-heart ycl-act-active" id="likeIcon${painterVO.ptr_no}">
+													   			<em class="fa fa-heart ycl-act-active" id="likeIcon${painterVO.ptr_no}">
 													   				<span class="ycl-act-cnt ycl-act-active" id="likeCnt${painterVO.ptr_no}">${painterVO.like_cnt}</span>
-													   			</i>
+													   			</em>
 													   		</c:otherwise>
 													   </c:choose>
 												   </button>
@@ -212,15 +212,15 @@
 													<button class="ycl-act-btn-col " value="${painterVO.ptr_no}">												
 														<c:choose>
 													   		<c:when test="${empty painterActSvc.getOneByActType(painterVO.ptr_no, 2, loginMemVO.mem_id)}">
-													   			<i class="lnr lnr-inbox" id="colIcon${painterVO.ptr_no}">
+													   			<em class="lnr lnr-inbox" id="colIcon${painterVO.ptr_no}">
 													   				<span class="ycl-act-cnt" id="colCnt${painterVO.ptr_no}">${painterVO.col_cnt}</span>
-													   			</i>
+													   			</em>
 													   		</c:when>
 													   		
 													   		<c:otherwise>
-													   			<i class="fa fa-inbox ycl-act-active" id="colIcon${painterVO.ptr_no}">
+													   			<em class="fa fa-inbox ycl-act-active" id="colIcon${painterVO.ptr_no}">
 													   				<span class="ycl-act-cnt ycl-act-active" id="colCnt${painterVO.ptr_no}">${painterVO.col_cnt}</span>
-													   			</i>
+													   			</em>
 													   		</c:otherwise>												   	 
 													   </c:choose>
 												   </button>
@@ -228,8 +228,8 @@
 												
 												<span class="post-icons ycl-post-icons  pull-right">
 													<button class="ycl-act-btn-msg">
-															<a href="<%=request.getContextPath()%>/frontend/shop/shopping?action=Ptr_Search&ptr_no=${painterVO.ptr_no}"><i class="lnr lnr-cart"></i></a>
-															<%--<a href="<%=request.getContextPath()%>/frontend/shop/forPrinter.jsp?ptr_no=${painterVO.ptr_no}"><i class="lnr lnr-cart"></i></a> --%>
+															<a href="<%=request.getContextPath()%>/frontend/shop/shopping?action=Ptr_Search&ptr_no=${painterVO.ptr_no}"><em class="lnr lnr-cart"></em></a>
+															<%--<a href="<%=request.getContextPath()%>/frontend/shop/forPrinter.jsp?ptr_no=${painterVO.ptr_no}"><em class="lnr lnr-cart"></em></a> --%>
 													</button>											
 												</span>
 												

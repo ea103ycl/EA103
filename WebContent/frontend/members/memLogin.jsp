@@ -171,7 +171,7 @@ img {
 				<div style="text-align: left; color: red; font-size: 9px;width:100%; height:8%">
 						<c:if test="${not empty errorMsgs}">
 								
-									<c:forEach var="message" items="${errorMsgs}"><i class="zmdi zmdi-alert-circle-o"></i>${message}<br>
+									<c:forEach var="message" items="${errorMsgs}"><em class="zmdi zmdi-alert-circle-o"></em>${message}<br>
 									</c:forEach>
 								
 							</c:if>

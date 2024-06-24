@@ -66,7 +66,7 @@
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<%=request.getContextPath()%>/backend/back-index.jsp">
                 <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-palette"></i>
+                    <em class="fas fa-palette"></em>
                 </div>
                 <div class="sidebar-brand-text mx-3">ArtsBlock<sup></sup></div>
             </a>
@@ -75,9 +75,9 @@
             <hr class="sidebar-divider my-0">
             
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
+            <lem class="nav-item active">
                 <a class="nav-link" href="<%=request.getContextPath()%>/backend/back-index.jsp">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <em class="fas fa-fw fa-tachometer-alt"></em>
                     <span>控制台</span></a>
             </li>
             
@@ -93,57 +93,57 @@
             
         <c:choose>
      	 <c:when test="${fn:contains(funcList, 'A')}"> 
-     	 <li class="nav-item">
+     	 <lem class="nav-item">
      	 <a class="nav-link" href="<%=request.getContextPath()%>/backend/members/mem_selectPage.jsp">
      	 </c:when>
      	 <c:otherwise>
-     	 <li class="nav-item jeff-non-active">
+     	 <lem class="nav-item jeff-non-active">
      	 <a class="nav-link" href="#">
      	 </c:otherwise>
     	</c:choose>
-          <i class="fas fa-users"></i>
+          <em class="fas fa-users"></em>
           <span>會員查詢</span></a>
             </li>                   
             
         <c:choose>
      	 <c:when test="${fn:contains(funcList, 'B')}"> 
-     	 <li class="nav-item">
+     	 <lem class="nav-item">
      	 <a class="nav-link" href="<%=request.getContextPath()%>/backend/welRecord/welRecord_selectPage.jsp">
      	 </c:when>
      	 <c:otherwise>
-     	 <li class="nav-item jeff-non-active">
+     	 <lem class="nav-item jeff-non-active">
      	 <a class="nav-link" href="#">
      	 </c:otherwise>
     	</c:choose>
-          <i class="fas fa-store"></i>
+          <em class="fas fa-store"></em>
           <span>錢包查詢</span></a>
             </li>           
                      
         <c:choose>
      	 <c:when test="${fn:contains(funcList, 'C')}"> 
-     	 <li class="nav-item">
+     	 <lem class="nav-item">
      	 <a class="nav-link" href="<%=request.getContextPath()%>/backend/lv/listAllLv.jsp">
      	 </c:when>
      	 <c:otherwise>
-     	 <li class="nav-item jeff-non-active">
+     	 <lem class="nav-item jeff-non-active">
      	 <a class="nav-link" href="#">
      	 </c:otherwise>
     	</c:choose>
-          <i class="fas fa-chess-queen"></i>
+          <em class="fas fa-chess-queen"></em>
           <span>里程碑管理</span></a>
             </li>                
                                       
      	<c:choose>
      	 <c:when test="${fn:contains(funcList, 'D')}">
-     	 <li class="nav-item">
+     	 <lem class="nav-item">
      	 <a class="nav-link collapsed" href="" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
      	 </c:when>
      	 <c:otherwise>
-     	 <li class="nav-item jeff-non-active">
+     	 <lem class="nav-item jeff-non-active">
      	 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
      	 </c:otherwise>
      	</c:choose>    
-          <i class="fas fa-flag-checkered"></i>
+          <em class="fas fa-flag-checkered"></em>
           <span>創意主題競賽</span>
                 </a>
                 <div id="collapseOne" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
@@ -164,15 +164,15 @@
             
     	 <c:choose>
     	  <c:when test="${fn:contains(funcList, 'E')}">
-    	  <li class="nav-item">
+    	  <lem class="nav-item">
     	  <a class="nav-link collapsed" href="" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
     	  </c:when>
     	  <c:otherwise>
-    	  <li class="nav-item jeff-non-active">    	  
+    	  <lem class="nav-item jeff-non-active">    	  
     	  <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
     	  </c:otherwise>
    	    </c:choose>  
-          <i class="fas fa-gavel"></i>
+          <em class="fas fa-gavel"></em>
           <span>限時競標管理</span>
                 </a>
                 <div id="collapse3" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
@@ -187,15 +187,15 @@
             <!-- Nav Item - Tables -->
         <c:choose>
      	 <c:when test="${fn:contains(funcList, 'F')}"> 
-     	 <li class="nav-item">
+     	 <lem class="nav-item">
      	 <a class="nav-link collapsed" href="" data-toggle="collapse" data-target="#collapseI" aria-expanded="true" aria-controls="collapseI">
      	 </c:when>
      	 <c:otherwise>
-     	 <li class="nav-item jeff-non-active">
+     	 <lem class="nav-item jeff-non-active">
      	  <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseI" aria-expanded="true" aria-controls="collapseI">
      	 </c:otherwise>
     	</c:choose>
-          <i class="fas fa-store"></i>
+          <em class="fas fa-store"></em>
           <span>預購商品管理</span>
                 </a>
                 <div id="collapseI" class="collapse" aria-labelledby="headingI" data-parent="#accordionSidebar">
@@ -211,39 +211,39 @@
             <!-- Nav Item - Tables -->
      	<c:choose>
       	 <c:when test="${fn:contains(funcList, 'G')}">
-      	 <li class="nav-item">
+      	 <lem class="nav-item">
       	 <a class="nav-link" href="<%=request.getContextPath()%>/backend/prod/listAllProd.jsp">
       	 </c:when>
       	 <c:otherwise>
-      	 <li class="nav-item jeff-non-active">
+      	 <lem class="nav-item jeff-non-active">
       	 <a class="nav-link" href="#">
       	 </c:otherwise>
      	</c:choose>
-          <i class="fas fa-gifts"></i>
+          <em class="fas fa-gifts"></em>
           <span>商品管理</span></a>
             </li>
             
             <!-- Nav Item - Tables -->
 <%--         <c:choose> --%>
-<%--       	 <c:when test="${fn:contains(funcList, 'D')}"><li class="nav-item"></c:when> --%>
-<%--      	 <c:otherwise><li class="nav-item jeff-non-active"></c:otherwise> --%>
+<%--       	 <c:when test="${fn:contains(funcList, 'D')}"><lem class="nav-item"></c:when> --%>
+<%--      	 <c:otherwise><lem class="nav-item jeff-non-active"></c:otherwise> --%>
 <%--         </c:choose> --%>
 <%--         <a class="nav-link" href="<%=request.getContextPath()%>/backend/material/listAllMat.jsp"> --%>
-<!--           <i class="fas fa-tshirt"></i> -->
+<!--           <em class="fas fa-tshirt"></em> -->
 <!--           <span>素材管理</span></a> -->
 <!--             </li> -->
           
         <c:choose>
       	 <c:when test="${fn:contains(funcList, 'H')}">
-      	 <li class="nav-item">
+      	 <lem class="nav-item">
       	 <a class="nav-link collapsed" href="" data-toggle="collapse" data-target="#collapseXI" aria-expanded="true" aria-controls="collapseXI">
       	 </c:when>
      	 <c:otherwise>
-     	 <li class="nav-item jeff-non-active">
+     	 <lem class="nav-item jeff-non-active">
      	 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseXI" aria-expanded="true" aria-controls="collapseXI">
      	 </c:otherwise>
         </c:choose>
-          <i class="fas fa-tshirt"></i>
+          <em class="fas fa-tshirt"></em>
           <span>素材管理</span></a>     
                 <div id="collapseXI" class="collapse" aria-labelledby="headingThree" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
@@ -257,29 +257,29 @@
             <!-- Nav Item - Tables -->
         <c:choose>
          <c:when test="${fn:contains(funcList, 'I')}">
-         <li class="nav-item">
+         <lem class="nav-item">
          <a class="nav-link" href="<%=request.getContextPath()%>/backend/meeting/listAllMeeting_back.jsp">
          </c:when>
          <c:otherwise>
-         <li class="nav-item jeff-non-active">
+         <lem class="nav-item jeff-non-active">
          <a class="nav-link" href="#">
          </c:otherwise>
         </c:choose>
-          <i class="far fa-calendar-alt"></i>
+          <em class="far fa-calendar-alt"></em>
           <span>見面會管理</span></a>
             </li>
             
       	<c:choose>
      	 <c:when test="${fn:contains(funcList, 'J')}">
-     	 <li class="nav-item">
+     	 <lem class="nav-item">
      	 <a class="nav-link collapsed" href="" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
      	 </c:when>
          <c:otherwise>
-         <li class="nav-item jeff-non-active">
+         <lem class="nav-item jeff-non-active">
          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
          </c:otherwise>
      	</c:choose>
-          <i class="fas fa-file-invoice-dollar"></i>
+          <em class="fas fa-file-invoice-dollar"></em>
           <span>訂單管理</span>
                 </a>
                 <div id="collapse4" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
@@ -298,15 +298,15 @@
             <div class="sidebar-heading"> 系統 System </div>
 <%--       	<c:choose> --%>
 <%--       	 <c:when test="${fn:contains(funcList, 'K')}"> --%>
-<!--       	 <li class="nav-item"> -->
+<!--       	 <lem class="nav-item"> -->
 <%--       	 <a class="nav-link collapsed" href="<%=request.getContextPath()%>/backend/emp/test_power.jsp" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse5"> --%>
 <%--       	 </c:when> --%>
 <%--       	 <c:otherwise> --%>
-<!--       	 <li class="nav-item jeff-non-active"> -->
+<!--       	 <lem class="nav-item jeff-non-active"> -->
 <!--       	 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse5"> -->
 <%--       	 </c:otherwise> --%>
 <%--      	</c:choose> --%>
-<!--           <i class="fas fa-ad"></i> -->
+<!--           <em class="fas fa-ad"></em> -->
 <!--           <span>廣告管理</span> -->
 <!--                 </a> -->
 <!--                 <div id="collapse5" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar"> -->
@@ -321,29 +321,29 @@
             <!-- Nav Item - Tables -->
 <%--       	<c:choose> --%>
 <%--       	 <c:when test="${fn:contains(funcList, 'K')}"> --%>
-<!--       	 <li class="nav-item"> -->
+<!--       	 <lem class="nav-item"> -->
 <%--       	 <a class="nav-link" href="<%=request.getContextPath()%>/backend/emp/test_power.jsp"> --%>
 <%--       	 </c:when> --%>
 <%--       	 <c:otherwise> --%>
-<!--       	 <li class="nav-item jeff-non-active"> -->
+<!--       	 <lem class="nav-item jeff-non-active"> -->
 <!--       	 <a class="nav-link" href="#"> -->
 <%--       	 </c:otherwise> --%>
 <%--      	</c:choose> --%>
-<!--           <i class="fas fa-poo"></i> -->
+<!--           <em class="fas fa-poo"></em> -->
 <!--           <span>作品檢舉</span></a> -->
 <!--             </li> -->
             
       	<c:choose>
       	 <c:when test="${fn:contains(funcList, 'K')}">
-      	 <li class="nav-item">
+      	 <lem class="nav-item">
       	  <a class="nav-link collapsed" href="" data-toggle="collapse" data-target="#collapseX" aria-expanded="true" aria-controls="collapseX">
       	 </c:when>
       	 <c:otherwise>
-      	 <li class="nav-item jeff-non-active">
+      	 <lem class="nav-item jeff-non-active">
       	  <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseX" aria-expanded="true" aria-controls="collapseX">
       	 </c:otherwise>
      	</c:choose>
-          <i class="fas fa-user-shield"></i>
+          <em class="fas fa-user-shield"></em>
           <span>員工管理</span></a>     
                 <div id="collapseX" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">

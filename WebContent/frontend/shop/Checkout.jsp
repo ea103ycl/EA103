@@ -167,7 +167,7 @@ memVO = (MemVO)request.getSession().getAttribute("memVO");
 <input type="hidden" name="or_total" value="<%=or_total%>">
 <input type="hidden" name="action" value="insert">                  
 <input name="mem_id" class="input" type="hidden"  value="${memVO.mem_id}">
-<button type="submit"  id="btn-submit"    class="btn btn-primary-filled btn-rounded"><i class="lnr lnr-cart"></i><span>確認購買</span></button>
+<button type="submit"  id="btn-submit"    class="btn btn-primary-filled btn-rounded"><em class="lnr lnr-cart"></em><span>確認購買</span></button>
 </form> 
                     
                     
@@ -221,13 +221,13 @@ Integer mem_balance = dealSvc.getOneDeal(memVO.getMem_id()).getBalance();//從DB
                 <h4 style="color:#c39d6d; display:inline-block;  ">你目前錢包金額: <h3 style="color:purple;">NT$ <%=mem_balance%></h3></h4>
                 <%if (or_total > mem_balance){%> 
                  <h4 style="color:#c39d6d;  display:inline-block;  ">你的錢不夠唷，你還差: <h3 style="color:red;">NT$ <%=or_total-mem_balance%></h3></h4> 
-                	<a href="<%=request.getContextPath()%>/frontend/members/memArea.jsp#accountArea" class="btn btn-primary-filled btn-rounded"><i class="lnr lnr-store"></i><span>儲值去</span></a>
+                	<a href="<%=request.getContextPath()%>/frontend/members/memArea.jsp#accountArea" class="btn btn-primary-filled btn-rounded"><em class="lnr lnr-store"></em><span>儲值去</span></a>
                 <%} %>
                 
                   
                 <div class="cart-total-footer">
-                    <a href="Cart.jsp" class="btn btn-default-filled btn-rounded"><i class="lnr lnr-arrow-left"></i><span>返回購物車</span></a>
-                    <a href="EShop.jsp" class="btn btn-primary-filled btn-rounded"><i class="lnr lnr-store"></i><span>再逛逛</span></a>
+                    <a href="Cart.jsp" class="btn btn-default-filled btn-rounded"><em class="lnr lnr-arrow-left"></em><span>返回購物車</span></a>
+                    <a href="EShop.jsp" class="btn btn-primary-filled btn-rounded"><em class="lnr lnr-store"></em><span>再逛逛</span></a>
                 </div><!-- / cart-total-footer -->
             </div><!-- / checkout-total -->
 
@@ -243,7 +243,7 @@ Integer mem_balance = dealSvc.getOneDeal(memVO.getMem_id()).getBalance();//從DB
 <!-- / content -->
 
 <!-- scroll to top -->
-<a href="#top" class="scroll-to-top page-scroll is-hidden" data-nav-status="toggle"><i class="fa fa-angle-up"></i></a>
+<a href="#top" class="scroll-to-top page-scroll is-hidden" data-nav-status="toggle"><em class="fa fa-angle-up"></em></a>
 <!-- / scroll to top -->
 
 <!--------------------------------------- footer --------------------------------------->

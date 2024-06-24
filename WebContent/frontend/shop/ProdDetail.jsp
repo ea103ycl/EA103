@@ -197,9 +197,9 @@ input[type=number]::-webkit-outer-spin-button {
                     </div><!-- / product-slider -->
 
                     <ul class="nav nav-tabs" role="tablist">
-                        <li class="active"><a href="#description" role="tab" data-toggle="tab" aria-expanded="true">商品描述</a></li>
+                        <lem class="active"><a href="#description" role="tab" data-toggle="tab" aria-expanded="true">商品描述</a></li>
                         
-                        <li class=""><a href="#reviews" role="tab" data-toggle="tab" aria-expanded="false">商品評價</a></li>
+                        <lem class=""><a href="#reviews" role="tab" data-toggle="tab" aria-expanded="false">商品評價</a></li>
                     </ul>
                     <!-- / nav-tabs -->
                     <div class="tab-content">
@@ -244,19 +244,19 @@ input[type=number]::-webkit-outer-spin-button {
                                     
                                         <span class="product-rating">
                                         <c:if test="${evalVO.eval_rang==1}">
-                                         <i class="fa fa-star"></i>
+                                         <em class="fa fa-star"></em>
                                          </c:if>
                                         <c:if test="${evalVO.eval_rang==2}">
-                                        <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                        <em class="fa fa-star"></em><em class="fa fa-star"></em>
                                          </c:if>
                                           <c:if test="${evalVO.eval_rang==3}">       
-                                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                        <em class="fa fa-star"></em><em class="fa fa-star"></em><em class="fa fa-star"></em>
                                         </c:if>
                                         <c:if test="${evalVO.eval_rang==4}"> 
-                                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                        <em class="fa fa-star"></em><em class="fa fa-star"></em><em class="fa fa-star"></em><em class="fa fa-star"></em>
                                         </c:if>
                                         <c:if test="${evalVO.eval_rang==5}"> 
-                                            <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                            <em class="fa fa-star"></em> <em class="fa fa-star"></em> <em class="fa fa-star"></em> <em class="fa fa-star"></em> <em class="fa fa-star"></em>
                                        </c:if>
                                         </span>
                                     </div>
@@ -295,12 +295,12 @@ input[type=number]::-webkit-outer-spin-button {
                     
                     <div class="product-info">
                         <div class="info">
-                            <p><i class="lnr lnr-tag"></i><span style="font-size:20px;">$ ${prodVO.prod_price}</span></p>
+                            <p><em class="lnr lnr-tag"></em><span style="font-size:20px;">$ ${prodVO.prod_price}</span></p>
                         </div>
                         
                         
                         <div class="info">
-                            <p><i class="lnr lnr-star"></i>
+                            <p><em class="lnr lnr-star"></em>
                            
                             
                             <%  if (list_eval.size()==0){ %>
@@ -319,34 +319,34 @@ input[type=number]::-webkit-outer-spin-button {
                       
                              
                             <%  if ( star_value >0 && star_value <=0.5){ %> 
-                            <i class="fa fa-star-half-o"></i>
+                            <em class="fa fa-star-half-o"></em>
                             <% } %>
                             <%  if (star_value>0.5 && star_value<=1){ %>
-                             <i class="fa fa-star"></i>
+                             <em class="fa fa-star"></em>
                             <% } %>
                             <%  if (star_value >1 && star_value <=1.5){ %>
-                             <i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
+                             <em class="fa fa-star"></em><em class="fa fa-star-half-o"></em>
                             <% } %>
                             <%  if (star_value >1.5 && star_value<=2){ %>
-                            <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            <em class="fa fa-star"></em><em class="fa fa-star"></em>
                             <% } %>
                             <%  if (star_value >2 && star_value <=2.5){ %>
-                             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
+                             <em class="fa fa-star"></em><em class="fa fa-star"></em><em class="fa fa-star-half-o"></em>
                             <% } %>
                             <%  if (star_value >2.5 && star_value<=3){ %>
-                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            <em class="fa fa-star"></em><em class="fa fa-star"></em><em class="fa fa-star"></em>
                             <% } %>
                             <%  if (star_value >3 && star_value <=3.5){ %>
-                             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
+                             <em class="fa fa-star"></em><em class="fa fa-star"></em><em class="fa fa-star"></em><em class="fa fa-star-half-o"></em>
                             <% } %>
                             <%  if (star_value >3.5 && star_value<=4){ %>
-                             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                             <em class="fa fa-star"></em><em class="fa fa-star"></em><em class="fa fa-star"></em><em class="fa fa-star"></em>
                             <% } %>
                             <%  if (star_value >4 && star_value <=4.5){ %>
-                              <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
+                              <em class="fa fa-star"></em><em class="fa fa-star"></em><em class="fa fa-star"></em><em class="fa fa-star"></em><em class="fa fa-star-half-o"></em>
                             <% } %>
                              <%  if (star_value >4.5 && star_value <=5){ %>
-                              <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                              <em class="fa fa-star"></em><em class="fa fa-star"></em><em class="fa fa-star"></em><em class="fa fa-star"></em><em class="fa fa-star"></em>
                             <% } %>
                             <% } %>
                             </span>
@@ -409,7 +409,7 @@ input[type=number]::-webkit-outer-spin-button {
       <input type="hidden" name="prod_price" value="${prodVO.prod_price}" id="prod_price">
       
        <button type="button" name="Submit" value="放入購物車"   id="addcart" class="btn btn-primary-filled btn-rounded">
-       <i class="lnr lnr-cart"></i><span>加入購物車</span></button>
+       <em class="lnr lnr-cart"></em><span>加入購物車</span></button>
         </div>
 <!--        </form> -->
        
@@ -432,7 +432,7 @@ input[type=number]::-webkit-outer-spin-button {
 <!----------------------------------------------- Related-product --------------------------------------------------->
 
                 <c:forEach var="prodVO3" items="${list3}" varStatus="counter" >
-                <li class="col-xs-6 col-md-4 product m-product" data-groups='["mens"]'>
+                <lem class="col-xs-6 col-md-4 product m-product" data-groups='["mens"]'>
                     <div class="img-bg-color primary">
                         <h5 class="product-price">${prodVO3.prod_price}</h5>
                         <a href="single-product.html" class="product-link"></a>
@@ -449,7 +449,7 @@ input[type=number]::-webkit-outer-spin-button {
   <input type="hidden" name="prod_no" value="${prodVO3.prod_no}">
    <input type="hidden" name="action" value="getOne_For_Detail">		
     <button type="submit" name="Submit" value="商品詳情"   class="view-btn" data-toggle="tooltip" title="View Product">
-    <i class="lnr lnr-eye"></i>
+    <em class="lnr lnr-eye"></em>
     </button>   
 </form>
 
@@ -462,7 +462,7 @@ input[type=number]::-webkit-outer-spin-button {
       <input type="hidden" name="prod_qty" value= 1                       id="prod_qty${counter.count}" >
 <!--  <input type="hidden" name="action" value="ADD">	 -->
       <button type="button" name="Submit" value="放入購物車"  id="addcart_related${counter.count}" class="cart-btn" data-toggle="tooltip" title="Add to Cart">
-      <i class="lnr lnr-cart"></i>
+      <em class="lnr lnr-cart"></em>
        </button>   
 <!-- </form> -->
  </div>
@@ -492,7 +492,7 @@ input[type=number]::-webkit-outer-spin-button {
 <!-- / content -->
 
 <!-- scroll to top -->
-<a href="#top" class="scroll-to-top page-scroll is-hidden" data-nav-status="toggle"><i class="fa fa-angle-up"></i></a>
+<a href="#top" class="scroll-to-top page-scroll is-hidden" data-nav-status="toggle"><em class="fa fa-angle-up"></em></a>
 <!-- / scroll to top -->
 
 <!--------------------------------------- footer --------------------------------------->

@@ -84,12 +84,12 @@
                                         <!-- 數量 增加/減少 -->
                                         <div class="col-6">
                                             <ul class="pagination justify-content-end set_quantity">
-                                                <li class="page-item">
-                                                    <button class="page-link" onclick="decreaseNumber('<%="p"+ index %>','<%="a"+ index %>')"><i class="fas fa-minus"></i></button>
+                                                <lem class="page-item">
+                                                    <button class="page-link" onclick="decreaseNumber('<%="p"+ index %>','<%="a"+ index %>')"><em class="fas fa-minus"></em></button>
                                                 </li>
-                                                <li class="page-item"><input type="text" name="buynumber" oninput="Calculate('<%="p"+ index %>','<%="a"+ index %>','<%= index %>')" class="page-link" value="0" id="<%="p"+ index %>" onkeyup="document.getElementById('<%="q"+ index %>').value=this.value"></li>
-                                                <li class="page-item">
-                                                    <button class="page-link" onclick="increaseNumber('<%="p"+ index %>','<%="a"+ index %>')"><i class="fas fa-plus"></i></button>
+                                                <lem class="page-item"><input type="text" name="buynumber" oninput="Calculate('<%="p"+ index %>','<%="a"+ index %>','<%= index %>')" class="page-link" value="0" id="<%="p"+ index %>" onkeyup="document.getElementById('<%="q"+ index %>').value=this.value"></li>
+                                                <lem class="page-item">
+                                                    <button class="page-link" onclick="increaseNumber('<%="p"+ index %>','<%="a"+ index %>')"><em class="fas fa-plus"></em></button>
                                                 </li>
                                             </ul>
                                         </div>
@@ -100,9 +100,9 @@
                                         <form name="deleteForm" action="Shopping.do" method="POST">
                                         	<input type="hidden" name="action"  value="DELETE">
                                         	<input type="hidden" name="del" value="<%= index %>">
-                                            <p><i class="fas fa-trash-alt"></i><input type="submit" value="移除商品"></p>
+                                            <p><em class="fas fa-trash-alt"></em><input type="submit" value="移除商品"></p>
                                         </form>
-                                            <p><i class="fas fa-heart"></i><a href="frontindex.jsp">繼續選購</a></p>
+                                            <p><em class="fas fa-heart"></em><a href="frontindex.jsp">繼續選購</a></p>
                                         </div>
                                         <div class="col-4 justify-content-end price_money">
                                         	<span class="hid02" id="<%= index %>" >0</span>
@@ -170,7 +170,7 @@
                                 <div class="card-body">
                                     <a class="d-flex justify-content-between" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                                       	  我要下訂單
-                                        <span><i class="fas fa-chevron-down pt-1"></i></span>
+                                        <span><em class="fas fa-chevron-down pt-1"></em></span>
                                     </a>
                                     <div class="collapse" id="collapseExample">
                                         <div class="mt-3">
@@ -305,7 +305,7 @@
 						<h2 class="py-4 font-weight-bold">您尚未選購商品</h2>
                             <div class="row" >
                             <div style=>
-								<p><i class="fas fa-heart"></i><a href="frontindex.jsp">繼續選購</a></p>
+								<p><em class="fas fa-heart"></em><a href="frontindex.jsp">繼續選購</a></p>
 							</div>	
                           </div>
                       </div>
@@ -352,7 +352,7 @@
                                 <div class="card-body">
                                     <a class="d-flex justify-content-between" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                                       	  我要下訂單
-                                        <span><i class="fas fa-chevron-down pt-1"></i></span>
+                                        <span><em class="fas fa-chevron-down pt-1"></em></span>
                                     </a>
                                     <div class="collapse" id="collapseExample">
                                         <div class="mt-3">

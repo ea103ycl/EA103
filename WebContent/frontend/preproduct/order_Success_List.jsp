@@ -203,7 +203,7 @@
 				</c:if>
 				<hr>
 			</div>
-			<h4>我的預購訂單 <span class="pull-right"><a href="<%=request.getContextPath()%>/frontend/preproduct/frontindex.jsp" class="btn btn-sm btn-primary btn-rounded no-margin"><i class="lnr lnr-pencil"></i><span>繼續購物</span></a></span></h4>
+			<h4>我的預購訂單 <span class="pull-right"><a href="<%=request.getContextPath()%>/frontend/preproduct/frontindex.jsp" class="btn btn-sm btn-primary btn-rounded no-margin"><em class="lnr lnr-pencil"></em><span>繼續購物</span></a></span></h4>
 			<c:forEach var="preorderVO" items="${list}" begin="<%=pageIndex%>" end="<%=pageIndex+rowsPerPage-1%>">
 				<div class="row justify-content-around">
 					<div class="col-md-4">

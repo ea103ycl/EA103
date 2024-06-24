@@ -35,8 +35,8 @@
 					<div
 						style="text-align: left; color: red; width: 80%; margin: 0px auto;">
 						<h4>
-							<i class="zmdi zmdi-alert-circle-o zmdi-hc-2x"
-								style="color: red; display: inline-block; margin: auto 0px;"></i>
+							<em class="zmdi zmdi-alert-circle-o zmdi-hc-2x"
+								style="color: red; display: inline-block; margin: auto 0px;"></em>
 							請修正以下錯誤:<br><br>
 						</h4>
 					<table>
@@ -72,13 +72,13 @@
 					<input type="text" placeholder="手機號碼" class="form-control"
 						name="mobile" id="mobile"
 						value="<%=(memVO == null) ? "" : memVO.getM_mobile()%>" /> <i
-						class="zmdi zmdi-phone"></i>
+						class="zmdi zmdi-phone"></em>
 				</div>
 				<div class="form-wrapper">
 					<input type="text" placeholder="電子信箱" class="form-control"
 						name="email" id="email"
 						value="<%=(memVO == null) ? "" : memVO.getM_email()%>"> <i
-						class="zmdi zmdi-email"></i>
+						class="zmdi zmdi-email"></em>
 				</div>
 				<div class="form-wrapper">
 					<select name="zip" id="zip" class="form-control">
@@ -141,13 +141,13 @@
 <option value="336 桃園市 復興區">336 桃園市 復興區</option>
 <option value="337 桃園市 大園區">337 桃園市 大園區</option>
 <option value="338 桃園市 蘆竹區">338 桃園市 蘆竹區</option>
-					</select> <i class="zmdi zmdi-caret-down" style="font-size: 17px"></i>
+					</select> <em class="zmdi zmdi-caret-down" style="font-size: 17px"></em>
 				</div>
 				<div class="form-wrapper">
 					<input type="text" placeholder="地址" class="form-control"
 						name="address" id="address"
 						value="<%=(memVO == null) ? "" : memVO.getM_addr()%>"> <i
-						class="zmdi zmdi-home"></i>
+						class="zmdi zmdi-home"></em>
 				</div>
 				<div class="form-wrapper">
 					<input id="account" style="width: 70%; display: inline-block;"
@@ -161,15 +161,15 @@
 				</div>
 				<div class="form-wrapper">
 					<input type="password" placeholder="密碼(6-20個英文數字)" id="password1"
-						class="form-control" name="psw"> <i class="zmdi zmdi-lock"></i>
+						class="form-control" name="psw"> <em class="zmdi zmdi-lock"></em>
 				</div>
 				<div class="form-wrapper">
 					<input type="password" placeholder="再次確認密碼" class="form-control"  id="password2"
-						name="confirmpsw"> <i class="zmdi zmdi-lock"></i>
+						name="confirmpsw"> <em class="zmdi zmdi-lock"></em>
 				</div>
 				<button id="submitbtn" type="submit">
 					<div id="submitdiv">
-						Submit<i class="zmdi zmdi-arrow-right"></i>
+						Submit<em class="zmdi zmdi-arrow-right"></em>
 					</div>
 				</button>
 
@@ -189,7 +189,7 @@
 			if (str == null|| str =="" || (!rules.test(str)))
 			{
 				$("#usridCorrect").html("");
-				$("#usridWrong").html("<i class=\"zmdi zmdi-close zmdi-hc-2x\"></i>使用者名稱空白或格式不符");
+				$("#usridWrong").html("<em class=\"zmdi zmdi-close zmdi-hc-2x\"></em>使用者名稱空白或格式不符");
 				return;
 			}
 			
@@ -212,12 +212,12 @@
 				$("#usridCorrect").html("");
 				$("#usridWrong")
 						.html(
-								"<i class=\"zmdi zmdi-close zmdi-hc-2x\"></i>此使用者名稱已經有人使用");
+								"<em class=\"zmdi zmdi-close zmdi-hc-2x\"></em>此使用者名稱已經有人使用");
 			} else {
 				$("#usridWrong").html("");
 				$("#usridCorrect")
 						.html(
-								"<i class= \"zmdi zmdi-check zmdi-hc-2x\" ></i>此使用者名稱可以使用");
+								"<em class= \"zmdi zmdi-check zmdi-hc-2x\" ></em>此使用者名稱可以使用");
 			}
 
 		}

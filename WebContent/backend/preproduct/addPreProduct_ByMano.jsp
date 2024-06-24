@@ -171,13 +171,13 @@ label{
                     </c:forEach>
                 </select>
                 <br>
-                <i class="fa fa-calendar-plus-o"></i>
+                <em class="fa fa-calendar-plus-o"></em>
                 <input type="text" placeholder="預購開始時間" name="po_start" id="po_dateS">
-                <i class="fa fa-calendar-times-o"></i>
+                <em class="fa fa-calendar-times-o"></em>
                 <input type="text" placeholder="預購結束時間" name="po_end" id="po_dateE">
-                <i class="fa fa-money"></i>
+                <em class="fa fa-money"></em>
                 <input type="text" placeholder="請輸入原始價格" name="po_price" value="<%= (preproductVO==null) ? "":preproductVO.getPo_price()%>">
-                <i class="fa fa-pencil-square"></i>
+                <em class="fa fa-pencil-square"></em>
                 <input type="text" placeholder="請輸入商品描述" name="po_detail" value="<%= (preproductVO==null) ? "":preproductVO.getPo_detail()%>">
                 <input type="hidden" name="action" value="insertByRanking">
                 <input class="submit1" type="submit" value="確認新增">

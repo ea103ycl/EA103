@@ -50,7 +50,7 @@
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
                 <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-palette"></i>
+                    <em class="fas fa-palette"></em>
                 </div>
                 <div class="sidebar-brand-text mx-3">ArtsBlock<sup></sup></div>
             </a>
@@ -59,9 +59,9 @@
             <hr class="sidebar-divider my-0">
             
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
+            <lem class="nav-item active">
                 <a class="nav-link" href="#">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <em class="fas fa-fw fa-tachometer-alt"></em>
                     <span>控制台</span></a>
             </li>
             
@@ -73,9 +73,9 @@
             
             <!-- Nav Item - Pages Collapse Menu -->
             <!-- 瑞龍:注意collapseOne -->
-            <li class="nav-item">
+            <lem class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-users"></i>
+                    <em class="fas fa-users"></em>
                     <span>會員管理</span>
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
@@ -89,9 +89,9 @@
                 </div>
             </li>
             
-            <li class="nav-item">
+            <lem class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    <i class="fas fa-flag-checkered"></i>
+                    <em class="fas fa-flag-checkered"></em>
                     <span>創意主題競賽</span>
                 </a>
                 <div id="collapseOne" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
@@ -108,9 +108,9 @@
             
             <!-- Heading -->
             <div class="sidebar-heading"> 商城 Commerce </div>
-            <li class="nav-item">
+            <lem class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
-                    <i class="fas fa-gavel"></i>
+                    <em class="fas fa-gavel"></em>
                     <span>限時競標管理</span>
                 </a>
                 <div id="collapse3" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
@@ -123,36 +123,36 @@
             </li>
             
             <!-- Nav Item - Tables -->
-            <li class="nav-item">
+            <lem class="nav-item">
                 <a class="nav-link" href="javascript:window.location.href='preproduct.jsp'"><!-- 瑞龍:我的預購JSP頁面跳轉 -->
-                    <i class="fas fa-store"></i>
+                    <em class="fas fa-store"></em>
                     <span>預購商品管理</span></a>
             </li>
             
             <!-- Nav Item - Tables -->
-            <li class="nav-item">
+            <lem class="nav-item">
                 <a class="nav-link" href="#"> 
-                    <i class="fas fa-gifts"></i>
+                    <em class="fas fa-gifts"></em>
                     <span>商品管理</span></a>
             </li>
             
             <!-- Nav Item - Tables -->
-            <li class="nav-item">
+            <lem class="nav-item">
                 <a class="nav-link" href="#">
-                    <i class="fas fa-tshirt"></i>
+                    <em class="fas fa-tshirt"></em>
                     <span>素材管理</span></a>
             </li>
             
             <!-- Nav Item - Tables -->
-            <li class="nav-item">
+            <lem class="nav-item">
                 <a class="nav-link" href="#">
-                    <i class="far fa-calendar-alt"></i>
+                    <em class="far fa-calendar-alt"></em>
                     <span>見面會管理</span></a>
             </li>
             
-            <li class="nav-item">
+            <lem class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
-                    <i class="fas fa-file-invoice-dollar"></i>
+                    <em class="fas fa-file-invoice-dollar"></em>
                     <span>訂單管理</span>
                 </a>
                 <div id="collapse4" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
@@ -172,9 +172,9 @@
             
             <!-- Heading -->
             <div class="sidebar-heading"> 系統 System </div>
-            <li class="nav-item">
+            <lem class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
-                    <i class="fas fa-ad"></i>
+                    <em class="fas fa-ad"></em>
                     <span>廣告管理</span>
                 </a>
                 <div id="collapse5" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
@@ -187,15 +187,15 @@
             </li>
             
             <!-- Nav Item - Tables -->
-            <li class="nav-item">
+            <lem class="nav-item">
                 <a class="nav-link" href="#">
-                    <i class="fas fa-poo"></i>
+                    <em class="fas fa-poo"></em>
                     <span>作品檢舉</span></a>
             </li>
             
-            <li class="nav-item">
+            <lem class="nav-item">
                 <a class="nav-link" href="#">
-                    <i class="fas fa-user-shield"></i>
+                    <em class="fas fa-user-shield"></em>
                     <span>員工管理</span></a>
             </li>
             
@@ -222,7 +222,7 @@
                 
                     <!-- Sidebar Toggle (Topbar) -->
                     <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-                        <i class="fa fa-bars"></i>
+                        <em class="fa fa-bars"></em>
                     </button>
                     
                     
@@ -233,7 +233,7 @@
                             <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
                             <div class="input-group-append">
                                 <button class="btn btn-primary" type="button">
-                                    <i class="fas fa-search fa-sm"></i>
+                                    <em class="fas fa-search fa-sm"></em>
                                 </button>
                             </div>
                         </div>
@@ -244,9 +244,9 @@
                     <ul class="navbar-nav ml-auto">         
                                                      
                         <!-- Nav Item - Search Dropdown (Visible Only XS) -->
-                        <li class="nav-item dropdown no-arrow d-sm-none">
+                        <lem class="nav-item dropdown no-arrow d-sm-none">
                             <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-search fa-fw"></i>
+                                <em class="fas fa-search fa-fw"></em>
                             </a>
                             <!-- Dropdown - Messages -->
                             <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
@@ -255,7 +255,7 @@
                                         <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
                                         <div class="input-group-append">
                                             <button class="btn btn-primary" type="button">
-                                                <i class="fas fa-search fa-sm"></i>
+                                                <em class="fas fa-search fa-sm"></em>
                                             </button>
                                         </div>
                                     </div>
@@ -264,10 +264,10 @@
                         </li>
                         
                         <!-- Nav Item - Alerts -->
-                        <li class="nav-item dropdown no-arrow mx-1">
+                        <lem class="nav-item dropdown no-arrow mx-1">
                         
                             <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-bell fa-fw"></i>
+                                <em class="fas fa-bell fa-fw"></em>
                                 <!-- Counter - Alerts -->
                                 <span class="badge badge-danger badge-counter">99+</span>
                             </a>
@@ -281,7 +281,7 @@
                                     <div class="mr-3">
                                         <div class="icon-circle bg-primary">
                                             <!-- 圓形icon版 -->
-                                            <i class="fas fa-file-alt text-white"></i>
+                                            <em class="fas fa-file-alt text-white"></em>
                                         </div>
                                     </div>
                                     
@@ -294,7 +294,7 @@
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="mr-3">
                                         <div class="icon-circle bg-success">
-                                            <i class="fas fa-donate text-white"></i>
+                                            <em class="fas fa-donate text-white"></em>
                                         </div>
                                     </div>
                                     <div>
@@ -305,7 +305,7 @@
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="mr-3">
                                         <div class="icon-circle bg-warning">
-                                            <i class="fas fa-exclamation-triangle text-white"></i>
+                                            <em class="fas fa-exclamation-triangle text-white"></em>
                                         </div>
                                     </div>
                                     <div>
@@ -320,7 +320,7 @@
                         <!-- === --------------------------------- ====  -->  
                         
                         <!-- Nav Item - Messages -->
-                        <li class="nav-item dropdown no-arrow">
+                        <lem class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">員工編號XXX</span>
                                 <img class="img-profile rounded-circle" src="<%=request.getContextPath()%>/backend/bar/worker01.jpg">
@@ -328,12 +328,12 @@
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
                                 <a class="dropdown-item" href="#">
-                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i> 查看權限 </a>
+                                    <em class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></em> 查看權限 </a>
                                 <a class="dropdown-item" href="#">
-                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i> 設定 </a>
+                                    <em class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></em> 設定 </a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
-                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> 登出 </a>
+                                    <em class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></em> 登出 </a>
                             </div>
                         </li>
                         

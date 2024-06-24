@@ -51,7 +51,7 @@
         		
 				<!--訊息模板 -->
         		<div class="message_template">
-        			<li class="message">
+        			<lem class="message">
 <!--         				<div class="avatar"></div> -->
         				<div class="text_wrapper"><div class="text"></div></div>
         			</li>

@@ -207,7 +207,7 @@
                       <div class="h5 mb-0 font-weight-bold text-gray-800 align-items-center">${list_mem.size()}人</div>
                     </div>
                     <div class="col-auto">
-                      <i class="far fa-address-card fa-2x text-gray-300 "></i>
+                      <em class="far fa-address-card fa-2x text-gray-300 "></em>
                     </div>
                   </div>
                 </div>
@@ -222,7 +222,7 @@
                       <div class="h5 mb-0 font-weight-bold text-gray-800">${list_ptr.size()}件</div>
                     </div>
                     <div class="col-auto">
-                      <i class="fas fa-palette fa-2x text-gray-300"></i>
+                      <em class="fas fa-palette fa-2x text-gray-300"></em>
                     </div>
                   </div>
                 </div>
@@ -260,7 +260,7 @@
                       </div>
                     </div>
                     <div class="col-auto">
-                      <i class="fas fa-luggage-cart fa-2x text-gray-300"></i>
+                      <em class="fas fa-luggage-cart fa-2x text-gray-300"></em>
                     </div>
                   </div>
                 </div>
@@ -285,7 +285,7 @@
                       </div>
                     </div>
                     <div class="col-auto">
-                      <i class="fas fa-gavel fa-2x text-gray-300"></i>
+                      <em class="fas fa-gavel fa-2x text-gray-300"></em>
                     </div>
                   </div>
                 </div>

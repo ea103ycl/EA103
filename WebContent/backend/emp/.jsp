@@ -57,7 +57,7 @@
 <ul class="displayEmp">          
    <li>
     <FORM METHOD="post" ACTION="<%=request.getContextPath()%>/backend/emp/emp.do" >
-        <b>輸入員工編號 (如E0001):</b>
+        <strong>輸入員工編號 (如E0001):</b>
         <input type="text" name="emp_no">
         <input type="hidden" name="action" value="getOne_For_Display">
         <input type="submit" value="送出">
@@ -66,7 +66,7 @@
    
   <li>
      <FORM METHOD="post" ACTION="<%=request.getContextPath()%>/backend/emp/emp.do" >
-       <b>選擇員工編號:</b>
+       <strong>選擇員工編號:</b>
        <select size="1" name="emp_no">
          <c:forEach var="empVO" items="${list}" > 
           <option value="${empVO.empNo}">${empVO.empNo}
@@ -79,7 +79,7 @@
   
 	<li>
      <FORM METHOD="post" ACTION="<%=request.getContextPath()%>/backend/emp/emp.do" >
-       <b>選擇員工姓名:</b>
+       <strong>選擇員工姓名:</b>
        <select size="1" name="emp_no">
          <c:forEach var="empVO" items="${list}" > 
           <option value="${empVO.empNo}">${empVO.empName}

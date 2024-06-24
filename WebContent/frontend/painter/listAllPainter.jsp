@@ -135,10 +135,10 @@
 				<!-- 選單列 -->
                 <ul class="nav nav-tabs" role="tablist">
                     <c:if test="${loginMemVO.mem_id == pageScope.sid}">
-                    	<li class=""><a href="<%=request.getContextPath()%>/frontend/painter/listAllPainterFollow.jsp?sid=${pageScope.sid}">關注圈</a></li>
+                    	<lem class=""><a href="<%=request.getContextPath()%>/frontend/painter/listAllPainterFollow.jsp?sid=${pageScope.sid}">關注圈</a></li>
                     </c:if>
-                    <li class="active"><a href="<%=request.getContextPath()%>/frontend/painter/listAllPainter.jsp?sid=${pageScope.sid}">個人作品</a></li>
-                    <li class=""><a href="<%=request.getContextPath()%>/frontend/painter/listAllPainterCol.jsp?sid=${pageScope.sid}">個人收藏</a></li>
+                    <lem class="active"><a href="<%=request.getContextPath()%>/frontend/painter/listAllPainter.jsp?sid=${pageScope.sid}">個人作品</a></li>
+                    <lem class=""><a href="<%=request.getContextPath()%>/frontend/painter/listAllPainterCol.jsp?sid=${pageScope.sid}">個人收藏</a></li>
                 </ul>
                 
                 <div class="tab-content">
@@ -183,9 +183,9 @@
 												<!-- 留言 -->
 												<span class="post-icons ycl-post-icons">
 													<button class="ycl-act-btn-msg" value="${painterVO.ptr_no}" onclick="location.href='<%=request.getContextPath()%>/frontend/painter/onePainter.jsp?ptr_no=${painterVO.ptr_no}&sid=${sid}&src=1&spg=<%=whichPage%>'">
-														<i class="lnr lnr-bubble">
+														<em class="lnr lnr-bubble">
 															<span class="ycl-act-cnt">${painterMsgSvc.getPainterMsgCnt(painterVO.ptr_no)}</span>
-														</i>
+														</em>
 													</button>											
 												</span>
 
@@ -194,15 +194,15 @@
 												   <button class="ycl-act-btn-like " value="${painterVO.ptr_no}">
 													   <c:choose>
 													   		<c:when test="${empty painterActSvc.getOneByActType(painterVO.ptr_no, 1, loginMemVO.mem_id)}">
-													   			<i class="lnr lnr-heart" id="likeIcon${painterVO.ptr_no}">
+													   			<em class="lnr lnr-heart" id="likeIcon${painterVO.ptr_no}">
 													   				<span class="ycl-act-cnt" id="likeCnt${painterVO.ptr_no}">${painterVO.like_cnt}</span>
-													   			</i>
+													   			</em>
 													   		</c:when>
 													   		
 													   		<c:otherwise>
-													   			<i class="fa fa-heart ycl-act-active" id="likeIcon${painterVO.ptr_no}">
+													   			<em class="fa fa-heart ycl-act-active" id="likeIcon${painterVO.ptr_no}">
 													   				<span class="ycl-act-cnt ycl-act-active" id="likeCnt${painterVO.ptr_no}">${painterVO.like_cnt}</span>
-													   			</i>
+													   			</em>
 													   		</c:otherwise>
 													   </c:choose>
 												   </button>
@@ -213,15 +213,15 @@
 													<button class="ycl-act-btn-col " value="${painterVO.ptr_no}">												
 														<c:choose>
 													   		<c:when test="${empty painterActSvc.getOneByActType(painterVO.ptr_no, 2, loginMemVO.mem_id)}">
-													   			<i class="lnr lnr-inbox" id="colIcon${painterVO.ptr_no}">
+													   			<em class="lnr lnr-inbox" id="colIcon${painterVO.ptr_no}">
 													   				<span class="ycl-act-cnt" id="colCnt${painterVO.ptr_no}">${painterVO.col_cnt}</span>
-													   			</i>
+													   			</em>
 													   		</c:when>
 													   		
 													   		<c:otherwise>
-													   			<i class="fa fa-inbox ycl-act-active" id="colIcon${painterVO.ptr_no}">
+													   			<em class="fa fa-inbox ycl-act-active" id="colIcon${painterVO.ptr_no}">
 													   				<span class="ycl-act-cnt ycl-act-active" id="colCnt${painterVO.ptr_no}">${painterVO.col_cnt}</span>
-													   			</i>
+													   			</em>
 													   		</c:otherwise>												   	 
 													   </c:choose>
 												   </button>
@@ -295,7 +295,7 @@
 <!-- 	                    </div> -->
 	                    
 <!-- 			        	<div class="form-group"> -->
-<!-- 	                        <label>作品名稱<span class="btn btn-xs btn-danger-filled btn-rounded" id="ptrNmMsg" style="display:none;"><i class="fa fa-times"></i><span>請輸入作品名稱</span></span></label> -->
+<!-- 	                        <label>作品名稱<span class="btn btn-xs btn-danger-filled btn-rounded" id="ptrNmMsg" style="display:none;"><em class="fa fa-times"></em><span>請輸入作品名稱</span></span></label> -->
 <!-- 	                        <input type="text" class="form-control" id="ptr_nm" name="ptr_nm" placeholder="請輸入作品名稱" required="required"  -->
 <%-- 	                               data-error="*請輸入作品名稱"  maxlength="33" value="${painterInsertVO.ptr_nm}"> --%>
 <!-- 	                    </div> -->
@@ -307,17 +307,17 @@
 <!-- 	                    </div> -->
 						
 <!-- 			        	<div class="form-group"> -->
-<!-- 	                        <label>HashTag</label><span class="btn btn-xs btn-danger-filled btn-rounded errMsg" id="ptrTagDescMsg" style="display:none;"><i class="fa fa-times"></i><span>tag過長，每個tag最多只能100個英文字或33個中文字</span></span> -->
+<!-- 	                        <label>HashTag</label><span class="btn btn-xs btn-danger-filled btn-rounded errMsg" id="ptrTagDescMsg" style="display:none;"><em class="fa fa-times"></em><span>tag過長，每個tag最多只能100個英文字或33個中文字</span></span> -->
 <%-- 	                        <input class="form-control" id="tag_desc" name="tag_desc" placeholder="請輸入作品tag(需以#分開)" value="${painterInsertTag_desc}">   --%>
 <!-- 	                    </div> -->
 <!-- 	                    <div class="form-group"> -->
-<!-- 	                        <label>選擇作品圖片<span class="btn btn-xs btn-danger-filled btn-rounded" id="imgPathMsg" style="display:none;"><i class="fa fa-times"></i><span>請選擇作品圖片</span></span></label> -->
+<!-- 	                        <label>選擇作品圖片<span class="btn btn-xs btn-danger-filled btn-rounded" id="imgPathMsg" style="display:none;"><em class="fa fa-times"></em><span>請選擇作品圖片</span></span></label> -->
 <!-- 	                        <input type="file" id="imgPath" name="imgPath" onchange="readURL(this);"  required="required" data-error="*請輸入作品圖片"> -->
 <!-- 	                        <img class="img-fluid w-25 h-25" id="imgUpload">	 -->
 <!--                     	</div> -->
                     	
 <!-- 	                     <div class="modal-footer"> -->
-<!-- 	                        <span class="btn btn-xs btn-danger btn-rounded" id="submitErrMsg" style="display:none;"><i class="fa fa-times"></i><span>請修正錯誤</span></span> -->
+<!-- 	                        <span class="btn btn-xs btn-danger btn-rounded" id="submitErrMsg" style="display:none;"><em class="fa fa-times"></em><span>請修正錯誤</span></span> -->
 <!-- 				        	<button type="submit" class="btn btn-primary btn-rounded" data-dismiss="modal">取消</button> -->
 <!-- 				        	<button type="submit" class="btn btn-primary-filled btn-rounded" name="action" value="insert" id="submitBtn">上傳</button> -->
 <!-- 				      	 </div> -->

@@ -153,9 +153,9 @@ label{
                 
  
                 <br>
-                <i class="fa fa-money"></i>
+                <em class="fa fa-money"></em>
                 <input type="text" placeholder="請輸入達標數量" name="reach_number" value="<%= (discountsettingVO==null) ? "":discountsettingVO.getReach_number()%>">
-                <i class="fa fa-pencil-square"></i>
+                <em class="fa fa-pencil-square"></em>
                 <input type="text" placeholder="請輸入折扣百分數" name="reach_discount" value="<%= (discountsettingVO==null) ? "":discountsettingVO.getReach_discount()%>">
                 <input type="hidden" name="action" value="insertdiscount">
                 <input class="submit1" type="submit" value="確認新增">

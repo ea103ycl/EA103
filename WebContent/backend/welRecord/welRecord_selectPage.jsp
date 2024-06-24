@@ -88,7 +88,7 @@ tr, td, th {
 									data-toggle="collapse" data-target="#collapseOne1"
 									aria-expanded="true" aria-controls="collapseOne"
 									id="simpleSearch">
-									<i class="zmdi zmdi-search"></i>&ensp;簡易查詢(單一會員帳號、名稱或編號)
+									<em class="zmdi zmdi-search"></em>&ensp;簡易查詢(單一會員帳號、名稱或編號)
 								</button>
 							</h2>
 						</div>
@@ -127,7 +127,7 @@ tr, td, th {
 										data-toggle="collapse" data-target="#collapseThree"
 										aria-expanded="false" aria-controls="collapseThree"
 										id="getAllRecords">
-										<i class="zmdi zmdi-search"></i>&ensp;全部錢包紀錄查詢
+										<em class="zmdi zmdi-search"></em>&ensp;全部錢包紀錄查詢
 									</button>
 								</h2>
 							</div>
@@ -164,7 +164,7 @@ tr, td, th {
 															<div class="h5 mb-0 font-weight-bold text-gray-800" id="depositMonthly"></div>
 														</div>
 														<div class="col-auto">
-															<i class="fas fa-calendar fa-2x text-gray-300"></i>
+															<em class="fas fa-calendar fa-2x text-gray-300"></em>
 														</div>
 													</div>
 												</div>
@@ -181,7 +181,7 @@ tr, td, th {
 															<div class="h5 mb-0 font-weight-bold text-gray-800" id="depositSeasonal"></div>
 														</div>
 														<div class="col-auto">
-															<i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+															<em class="fas fa-dollar-sign fa-2x text-gray-300"></em>
 														</div>
 													</div>
 												</div>
@@ -199,7 +199,7 @@ tr, td, th {
 															<div class="h5 mb-0 font-weight-bold text-gray-800" id="withdrawMonthly"></div>
 														</div>
 														<div class="col-auto">
-															<i class="fas fa-calendar fa-2x text-gray-300"></i>
+															<em class="fas fa-calendar fa-2x text-gray-300"></em>
 														</div>
 													</div>
 												</div>
@@ -217,7 +217,7 @@ tr, td, th {
 															<div class="h5 mb-0 font-weight-bold text-gray-800" id="withdrawSeasonal"></div>
 														</div>
 														<div class="col-auto">
-															<i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+															<em class="fas fa-dollar-sign fa-2x text-gray-300"></em>
 														</div>
 													</div>
 												</div>

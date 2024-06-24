@@ -93,11 +93,11 @@
                     <c:if test="${loginMemVO.mem_id == painterVO.mem_id}">
 						<div class="btn-group ycl-edit-btn pull-right" role="group">
 						    <button type="button" class="ycl-transparent-Btn ycl-square-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						      <i class="fa fa-ellipsis-h"></i>
+						      <em class="fa fa-ellipsis-h"></em>
 						    </button>
 						    <ul class="dropdown-menu">
-							    <li><a><button class="ycl-transparent-Btn mt-100" data-target="#updateModal" onclick="$('#updateModal').modal('show')"><i class="lnr lnr-pencil"></i>&nbsp;修改</button></a></li>
-							    <li><a><button class="ycl-transparent-Btn" id="deletePtrBtn"><i class="lnr lnr-trash"></i>&nbsp;刪除</button></a></li>
+							    <li><a><button class="ycl-transparent-Btn mt-100" data-target="#updateModal" onclick="$('#updateModal').modal('show')"><em class="lnr lnr-pencil"></em>&nbsp;修改</button></a></li>
+							    <li><a><button class="ycl-transparent-Btn" id="deletePtrBtn"><em class="lnr lnr-trash"></em>&nbsp;刪除</button></a></li>
 						    </ul>
 						  </div>
 					</c:if>
@@ -124,9 +124,9 @@
 	            				
 	            				<!-- 隱私權圖示 -->
 	            				<c:choose>
-	            				    <c:when test="${painterVO.priv_stat==1}"><span class="ycl-priv-stat-icon" title="公開">‧ <i class="fa fa-globe"></i></span></c:when>
-	            				    <c:when test="${painterVO.priv_stat==2}"><span class="ycl-priv-stat-icon" title="個人">‧ <i class="lnr lnr-lock"></i></c:when>
-	            				    <c:when test="${painterVO.priv_stat==3}"><span class="ycl-priv-stat-icon" title="粉絲">‧ <i class="lnr lnr-users"></i></c:when>
+	            				    <c:when test="${painterVO.priv_stat==1}"><span class="ycl-priv-stat-icon" title="公開">‧ <em class="fa fa-globe"></em></span></c:when>
+	            				    <c:when test="${painterVO.priv_stat==2}"><span class="ycl-priv-stat-icon" title="個人">‧ <em class="lnr lnr-lock"></em></c:when>
+	            				    <c:when test="${painterVO.priv_stat==3}"><span class="ycl-priv-stat-icon" title="粉絲">‧ <em class="lnr lnr-users"></em></c:when>
 	            				</c:choose>
 	            				
 	            			</p>
@@ -153,15 +153,15 @@
 									   <button class="ycl-act-btn-like " value="${painterVO.ptr_no}">
 										   <c:choose>
 										   		<c:when test="${empty painterActSvc.getOneByActType(painterVO.ptr_no, 1, loginMemVO.mem_id)}">
-										   			<i class="lnr lnr-heart" id="likeIcon${painterVO.ptr_no}">
+										   			<em class="lnr lnr-heart" id="likeIcon${painterVO.ptr_no}">
 										   				<span class="ycl-act-cnt" id="likeCnt${painterVO.ptr_no}">${painterVO.like_cnt}</span>
-										   			</i>
+										   			</em>
 										   		</c:when>
 										   		
 										   		<c:otherwise>
-										   			<i class="fa fa-heart ycl-act-active" id="likeIcon${painterVO.ptr_no}">
+										   			<em class="fa fa-heart ycl-act-active" id="likeIcon${painterVO.ptr_no}">
 										   				<span class="ycl-act-cnt ycl-act-active" id="likeCnt${painterVO.ptr_no}">${painterVO.like_cnt}</span>
-										   			</i>
+										   			</em>
 										   		</c:otherwise>
 										   </c:choose>
 									   </button>
@@ -172,15 +172,15 @@
 										<button class="ycl-act-btn-col " value="${painterVO.ptr_no}">												
 											<c:choose>
 										   		<c:when test="${empty painterActSvc.getOneByActType(painterVO.ptr_no, 2, loginMemVO.mem_id)}">
-										   			<i class="lnr lnr-inbox" id="colIcon${painterVO.ptr_no}">
+										   			<em class="lnr lnr-inbox" id="colIcon${painterVO.ptr_no}">
 										   				<span class="ycl-act-cnt" id="colCnt${painterVO.ptr_no}">${painterVO.col_cnt}</span>
-										   			</i>
+										   			</em>
 										   		</c:when>
 										   		
 										   		<c:otherwise>
-										   			<i class="fa fa-inbox ycl-act-active" id="colIcon${painterVO.ptr_no}">
+										   			<em class="fa fa-inbox ycl-act-active" id="colIcon${painterVO.ptr_no}">
 										   				<span class="ycl-act-cnt ycl-act-active" id="colCnt${painterVO.ptr_no}">${painterVO.col_cnt}</span>
-										   			</i>
+										   			</em>
 										   		</c:otherwise>												   	 
 										   </c:choose>
 									   </button>
@@ -189,7 +189,7 @@
 									<!-- 購物 -->
 									<span class="post-icons ycl-post-icons  pull-right">
 										<button class="ycl-act-btn-msg">
-										 	<a href="<%=request.getContextPath()%>/frontend/shop/shopping?action=Ptr_Search&ptr_no=${painterVO.ptr_no}"><i class="lnr lnr-cart"></i></a>
+										 	<a href="<%=request.getContextPath()%>/frontend/shop/shopping?action=Ptr_Search&ptr_no=${painterVO.ptr_no}"><em class="lnr lnr-cart"></em></a>
 										</button>											
 									</span>
 						    	</div>
@@ -208,7 +208,7 @@
 	                    	<c:forEach var="painterMsgVO" items="${msgList}">
 	                    	
 	                    		<!-- 每則留言內容 -->                  
-		                    	<li class="media">
+		                    	<lem class="media">
 		                    		                        
 		                        	<!-- 留言者頭像 -->
 		                            <div class="media-left">
@@ -231,11 +231,11 @@
 		                                    	<c:choose>
 		                                    		
 		                                    		<c:when test="${loginMemVO.mem_id == painterMsgVO.mem_id}">		                                    		
-														<button class="ycl-msg-btn-del deleteByMsgOwner" value="${painterMsgVO.msg_no}"><i class="fa fa-window-close" aria-hidden="true"></i></button>
+														<button class="ycl-msg-btn-del deleteByMsgOwner" value="${painterMsgVO.msg_no}"><em class="fa fa-window-close" aria-hidden="true"></em></button>
 		                                    		</c:when>
 		                                    		
 		                                    		<c:when test="${loginMemVO.mem_id == painterVO.mem_id}">
-															<button class="ycl-msg-btn-del deleteByPainterOwner" value="${painterMsgVO.msg_no}"><i class="fa fa-window-close" aria-hidden="true"></i></button>
+															<button class="ycl-msg-btn-del deleteByPainterOwner" value="${painterMsgVO.msg_no}"><em class="fa fa-window-close" aria-hidden="true"></em></button>
 		                                    		</c:when>
 		                                    			                                    	
 		                                    	</c:choose>
@@ -270,7 +270,7 @@
 	                            <div class="row">                         
 	                                <div class="col-xs-12">
 	                                    <div class="form-group">
-	                                        <span class="btn btn-xs btn-danger-filled btn-rounded" id="ptrMsgMsg" style="display:none;"><i class="fa fa-times"></i><span>請輸入留言</span></span>
+	                                        <span class="btn btn-xs btn-danger-filled btn-rounded" id="ptrMsgMsg" style="display:none;"><em class="fa fa-times"></em><span>請輸入留言</span></span>
 	                                        <textarea id="msg" name="msg" class="form-control" rows="5" placeholder="MESSAGE" required maxlength="333"></textarea>
 	                                    	<input style="display:none" name="ptr_no" value="${painterVO.ptr_no}"></input>
 	                                    </div>
@@ -339,7 +339,7 @@
 	                    </div>
 	                    
 			        	<div class="form-group">
-	                        <label>作品名稱</label><span class="btn btn-xs btn-danger-filled btn-rounded" id="ptrNmMsg" style="display:none;"><i class="fa fa-times"></i><span>請輸入作品名稱</span></span></label>
+	                        <label>作品名稱</label><span class="btn btn-xs btn-danger-filled btn-rounded" id="ptrNmMsg" style="display:none;"><em class="fa fa-times"></em><span>請輸入作品名稱</span></span></label>
 	                        <input type="text" class="form-control" id="ptr_nm" name="ptr_nm" placeholder="請輸入作品名稱" required="required" data-error="*請輸入作品名稱" 
 	                        	   value="${painterVO.ptr_nm}" maxlength="33">
 	                    </div>
@@ -351,7 +351,7 @@
 	                    </div>
 						
 			        	<div class="form-group">
-	                        <label>HashTag</label><span class="btn btn-xs btn-danger-filled btn-rounded errMsg" id="ptrTagDescMsg" style="display:none;"><i class="fa fa-times"></i><span>tag過長，每個tag最多只能100個英文字或33個中文字</span></span>
+	                        <label>HashTag</label><span class="btn btn-xs btn-danger-filled btn-rounded errMsg" id="ptrTagDescMsg" style="display:none;"><em class="fa fa-times"></em><span>tag過長，每個tag最多只能100個英文字或33個中文字</span></span>
 	                        <input class="form-control" id="tag_desc" name="tag_desc" placeholder="請輸入作品tag(需以#分開)" value="${tagString}">  
 	                    </div>
 	                    
@@ -366,7 +366,7 @@
                     	<input style="display:none" name="sid" value="${sid}">
                     	
 	                     <div class="modal-footer">
-	                        <span class="btn btn-xs btn-danger btn-rounded" id="submitErrMsg" style="display:none;"><i class="fa fa-times"></i><span>請修正錯誤</span></span>
+	                        <span class="btn btn-xs btn-danger btn-rounded" id="submitErrMsg" style="display:none;"><em class="fa fa-times"></em><span>請修正錯誤</span></span>
 				        	<button type="submit" class="btn btn-primary btn-rounded" data-dismiss="modal">取消</button>
 				        	<button type="submit" class="btn btn-primary-filled btn-rounded" id="updatePtrBtn" name="action" value="update">修改</button>
 				      	 </div>
